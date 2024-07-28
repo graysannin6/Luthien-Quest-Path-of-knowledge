@@ -1,0 +1,4224 @@
+fileFormatVersion: 2
+guid: 8353600764820cc4f9c2ced9001b02c5
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: SalamandarWitch#2__Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 256
+      height: 144
+    spriteID: 594ef44879a213c45a49ff0e01bc4adb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: SalamandarWitch#2__Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 156
+      width: 256
+      height: 144
+    spriteID: 3d60bca811af63047a4cfc683b6227b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 156}
+  - name: SalamandarWitch#2__Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 308
+      width: 256
+      height: 144
+    spriteID: 49a336fc228441147abcc5c18fba2614
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 308}
+  - name: SalamandarWitch#2__Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 460
+      width: 256
+      height: 144
+    spriteID: edcc524f017c92b45bee5a961e408f60
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 460}
+  - name: SalamandarWitch#2__Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 612
+      width: 256
+      height: 144
+    spriteID: 11186c9fe736d1447a6cef12f2327ed7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 612}
+  - name: SalamandarWitch#2__Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 764
+      width: 256
+      height: 144
+    spriteID: 086701360ce50784eb5d6ff7eb8a5ebf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 764}
+  - name: SalamandarWitch#2__Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 916
+      width: 256
+      height: 144
+    spriteID: 8f17fe31c6a06ae479329cd750760263
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 916}
+  - name: SalamandarWitch#2__Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1068
+      width: 256
+      height: 144
+    spriteID: ad34f29ae5dfc1949b4412bc3f72c366
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1068}
+  - name: SalamandarWitch#2__Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1220
+      width: 256
+      height: 144
+    spriteID: ee67dfd3acf304d48ae89e0d556d65ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1220}
+  - name: SalamandarWitch#2__Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1372
+      width: 256
+      height: 144
+    spriteID: ec4ca99a3bffaa84282e99a2ff0753e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1372}
+  - name: SalamandarWitch#2__Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1524
+      width: 256
+      height: 144
+    spriteID: 70c16afa08c16734eb58531ea604ee03
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1524}
+  - name: SalamandarWitch#2__Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1676
+      width: 256
+      height: 144
+    spriteID: 018f79df2b387604983cf0633a9be257
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1676}
+  - name: SalamandarWitch#2__Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1828
+      width: 256
+      height: 144
+    spriteID: 52bbcdfeb0dbf124fa0d880995126b7e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1828}
+  - name: SalamandarWitch#2__Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1980
+      width: 256
+      height: 144
+    spriteID: 7d6e4bc554d38774b8ce2e631bc659ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1980}
+  - name: SalamandarWitch#2__Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2132
+      width: 256
+      height: 144
+    spriteID: 6ea67f573ed5a8b459ff2a6b244911dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2132}
+  - name: SalamandarWitch#2__Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2284
+      width: 256
+      height: 144
+    spriteID: ec9730ff6cd7f4a48a1059d7ee937eb4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2284}
+  - name: SalamandarWitch#2__Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2436
+      width: 256
+      height: 144
+    spriteID: fc24484df6b5e69458f6b3bdac861b84
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2436}
+  - name: SalamandarWitch#2__Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2588
+      width: 256
+      height: 144
+    spriteID: 910056f97fadcd34487e25d341b44dcf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2588}
+  - name: SalamandarWitch#2__Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2740
+      width: 256
+      height: 144
+    spriteID: 4cf9e94f739e67c4baa4eac6a9898833
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2740}
+  - name: SalamandarWitch#2__Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2892
+      width: 256
+      height: 144
+    spriteID: 91dd35972103a35469af46417d470232
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2892}
+  - name: SalamandarWitch#2__Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3044
+      width: 256
+      height: 144
+    spriteID: 4f7276ad417b239469d5e42376f7f3c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3044}
+  - name: SalamandarWitch#2__Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3196
+      width: 256
+      height: 144
+    spriteID: f381f10777b3ba249a220169396bfaeb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3196}
+  - name: SalamandarWitch#2__Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3348
+      width: 256
+      height: 144
+    spriteID: e697626f55546a94db9d6b947b0372f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3348}
+  - name: SalamandarWitch#2__Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3500
+      width: 256
+      height: 144
+    spriteID: 1b468ffc3c6017c488f8212007bcb408
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3500}
+  - name: SalamandarWitch#2__Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3652
+      width: 256
+      height: 144
+    spriteID: b560d72a2d961b747bf31da6852d8790
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3652}
+  - name: SalamandarWitch#2__Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3804
+      width: 256
+      height: 144
+    spriteID: cd8138246ec56774ba0bfc687118c5b1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3804}
+  - name: SalamandarWitch#2__Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 4
+      width: 256
+      height: 144
+    spriteID: 121b9641f7f7cb547ae8d7de74572eea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 4}
+  - name: SalamandarWitch#2__Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 156
+      width: 256
+      height: 144
+    spriteID: fd1b84fd05ef01b4884dacb36abdb5aa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 156}
+  - name: SalamandarWitch#2__Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 308
+      width: 256
+      height: 144
+    spriteID: afffb6aaa6d460446af45afb5d14c9a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 308}
+  - name: SalamandarWitch#2__Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 460
+      width: 256
+      height: 144
+    spriteID: 66f676107c0befe4c911b056a79f2ef9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 460}
+  - name: SalamandarWitch#2__Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 612
+      width: 256
+      height: 144
+    spriteID: 7d79fee6888cd9b4fa71eb2ee74f442b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 612}
+  - name: SalamandarWitch#2__Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 764
+      width: 256
+      height: 144
+    spriteID: 55e64af85911da5459ea087d5735aa63
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 764}
+  - name: SalamandarWitch#2__Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 916
+      width: 256
+      height: 144
+    spriteID: 01a95151b7436144c9ecf0a8fdc76e23
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 916}
+  - name: SalamandarWitch#2__Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 1068
+      width: 256
+      height: 144
+    spriteID: 6649790ea980b89428c5f99c338b1e9a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 1068}
+  - name: SalamandarWitch#2__Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 1220
+      width: 256
+      height: 144
+    spriteID: 14f13b4ff640d9e4da3df2b02046ff14
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 1220}
+  - name: SalamandarWitch#2__Frame_35
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 1372
+      width: 256
+      height: 144
+    spriteID: 526f00f2f3813b34288a6c52be2ac59d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 1372}
+  - name: SalamandarWitch#2__Frame_36
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 1524
+      width: 256
+      height: 144
+    spriteID: d0e179a559a0d1c41ac61a9c5f7521e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 1524}
+  - name: SalamandarWitch#2__Frame_37
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 1676
+      width: 256
+      height: 144
+    spriteID: a8ba43e4da5233646a656f580f7dafef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 1676}
+  - name: SalamandarWitch#2__Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 1828
+      width: 256
+      height: 144
+    spriteID: 1f05fd1917490b84796fbf28b69130bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 1828}
+  - name: SalamandarWitch#2__Frame_39
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 1980
+      width: 256
+      height: 144
+    spriteID: 160445c4f6edd5a4cb97552e69f885c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 1980}
+  - name: SalamandarWitch#2__Frame_40
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 2132
+      width: 256
+      height: 144
+    spriteID: d50a5872c6d5eca40a57ea9f5ac11b81
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 2132}
+  - name: SalamandarWitch#2__Frame_41
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 2284
+      width: 256
+      height: 144
+    spriteID: fc66d1d792f5dbf4bbc126c62cfc161b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 2284}
+  - name: SalamandarWitch#2__Frame_42
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 2436
+      width: 256
+      height: 144
+    spriteID: b16937b66992f964badea4130c26152d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 2436}
+  - name: SalamandarWitch#2__Frame_43
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 2588
+      width: 256
+      height: 144
+    spriteID: fdfb82b780e365b4a8a921bcbdcb489b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 2588}
+  - name: SalamandarWitch#2__Frame_44
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 2740
+      width: 256
+      height: 144
+    spriteID: f2e4285f94600d34aaa8959c8bc7e8ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 2740}
+  - name: SalamandarWitch#2__Frame_45
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 2892
+      width: 256
+      height: 144
+    spriteID: 4bc181629bd780649adc487dea6b0c24
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 2892}
+  - name: SalamandarWitch#2__Frame_46
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 3044
+      width: 256
+      height: 144
+    spriteID: 79ddd34c433fc654791fd714f61b7f3e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 3044}
+  - name: SalamandarWitch#2__Frame_47
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 3196
+      width: 256
+      height: 144
+    spriteID: 7e9cf56683b8df14e86dadd87f4b9dc6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 3196}
+  - name: SalamandarWitch#2__Frame_48
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 3348
+      width: 256
+      height: 144
+    spriteID: b47a364223ec66146aeb41de7d77c3d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 3348}
+  - name: SalamandarWitch#2__Frame_49
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 3500
+      width: 256
+      height: 144
+    spriteID: 2dc05f84d9281584ba6c43fd6288f115
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 3500}
+  - name: SalamandarWitch#2__Frame_50
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 3652
+      width: 256
+      height: 144
+    spriteID: faa2b764b6316fb448cb61866cd8a272
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 3652}
+  - name: SalamandarWitch#2__Frame_51
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 3804
+      width: 256
+      height: 144
+    spriteID: d3c06e0dc66717b45ae4a730340a3ee0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 3804}
+  - name: SalamandarWitch#2__Frame_52
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 4
+      width: 256
+      height: 144
+    spriteID: 63145f6fad5e0c84f8d9c80e0776e38f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 4}
+  - name: SalamandarWitch#2__Frame_53
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 156
+      width: 256
+      height: 144
+    spriteID: 19d5a207aca2c154880004fcae3cdf6e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 156}
+  - name: SalamandarWitch#2__Frame_54
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 308
+      width: 256
+      height: 144
+    spriteID: 397649843a9fc3d48baef2d513e47169
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 308}
+  - name: SalamandarWitch#2__Frame_55
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 460
+      width: 256
+      height: 144
+    spriteID: e49c92b038d08df429d2b54fc6bc2af2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 460}
+  - name: SalamandarWitch#2__Frame_56
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 612
+      width: 256
+      height: 144
+    spriteID: f0981f6bc5529e84aac282498c3bb609
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 612}
+  - name: SalamandarWitch#2__Frame_57
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 764
+      width: 256
+      height: 144
+    spriteID: c57c79768aa062f4e8c133d6c04f3f46
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 764}
+  - name: SalamandarWitch#2__Frame_58
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 916
+      width: 256
+      height: 144
+    spriteID: 2a1b81b5d4608bb45b571d8d25fce074
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 916}
+  - name: SalamandarWitch#2__Frame_59
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 1068
+      width: 256
+      height: 144
+    spriteID: beaf5c93e931d5845963baf3bca9a33b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 1068}
+  - name: SalamandarWitch#2__Frame_60
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 1220
+      width: 256
+      height: 144
+    spriteID: e306a080d71106e4b8af39a7694d818d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 1220}
+  - name: SalamandarWitch#2__Frame_61
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 1372
+      width: 256
+      height: 144
+    spriteID: 8220900123c893542a2eccf371cd966f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 1372}
+  - name: SalamandarWitch#2__Frame_62
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 1524
+      width: 256
+      height: 144
+    spriteID: 0dead6baae2e7cb41b7b03f243f49d7c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 1524}
+  - name: SalamandarWitch#2__Frame_63
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 1676
+      width: 256
+      height: 144
+    spriteID: 24c8fad171553494bb01614889437a37
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 1676}
+  - name: SalamandarWitch#2__Frame_64
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 1828
+      width: 256
+      height: 144
+    spriteID: 50de3ea1192776940bd0309b393d43b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 1828}
+  - name: SalamandarWitch#2__Frame_65
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 1980
+      width: 256
+      height: 144
+    spriteID: fde78486b8ba5c94aab62715f06eaae5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 1980}
+  - name: SalamandarWitch#2__Frame_66
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 2132
+      width: 256
+      height: 144
+    spriteID: 5b30f997d85e1cb45b5b6e1de7b739c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 2132}
+  - name: SalamandarWitch#2__Frame_67
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 2284
+      width: 256
+      height: 144
+    spriteID: acfe65d2665d809479ac8cb41c67c847
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 2284}
+  - name: SalamandarWitch#2__Frame_68
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 2436
+      width: 256
+      height: 144
+    spriteID: 6f5f5481c88bc0347b95458939b5264b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 2436}
+  - name: SalamandarWitch#2__Frame_69
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 2588
+      width: 256
+      height: 144
+    spriteID: a0f2c5104c4916642b5bcbbb86975b01
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 2588}
+  - name: SalamandarWitch#2__Frame_70
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 2740
+      width: 256
+      height: 144
+    spriteID: 300645719a8b687468f82e85932a2a8b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 2740}
+  - name: SalamandarWitch#2__Frame_71
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 2892
+      width: 256
+      height: 144
+    spriteID: 425d3a6395c942548b7596ceac77774a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 2892}
+  - name: SalamandarWitch#2__Frame_72
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 3044
+      width: 256
+      height: 144
+    spriteID: 9a266c56856ee9b4e8d84a61b09d2390
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 3044}
+  - name: SalamandarWitch#2__Frame_73
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 3196
+      width: 256
+      height: 144
+    spriteID: 98b9b09552ae44a4092914069227bde3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 3196}
+  - name: SalamandarWitch#2__Frame_74
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 3348
+      width: 256
+      height: 144
+    spriteID: 699f1c1095b958b4a8018c85141786c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 3348}
+  - name: SalamandarWitch#2__Frame_75
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 3500
+      width: 256
+      height: 144
+    spriteID: 8e13a29b219c310489ce436383f23353
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 3500}
+  - name: SalamandarWitch#2__Frame_76
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 3652
+      width: 256
+      height: 144
+    spriteID: f454df79b7327094b9d4d0e9be73f205
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 3652}
+  - name: SalamandarWitch#2__Frame_77
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 3804
+      width: 256
+      height: 144
+    spriteID: c2214c14671e5a049879bb2af09ba2c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 3804}
+  - name: SalamandarWitch#2__Frame_78
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 4
+      width: 256
+      height: 144
+    spriteID: f31b311d04031bb4daafa310ff76b5d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 4}
+  - name: SalamandarWitch#2__Frame_79
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 156
+      width: 256
+      height: 144
+    spriteID: afeb3f2288fbdb14190b816daace1933
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 156}
+  - name: SalamandarWitch#2__Frame_80
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 308
+      width: 256
+      height: 144
+    spriteID: fa2da44fad200eb4a81860ef94056239
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 308}
+  - name: SalamandarWitch#2__Frame_81
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 460
+      width: 256
+      height: 144
+    spriteID: 47e759486a28b55478d082a416d927ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 460}
+  - name: SalamandarWitch#2__Frame_82
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 612
+      width: 256
+      height: 144
+    spriteID: 3696b89371c800d4ab154c81e98b08dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 612}
+  - name: SalamandarWitch#2__Frame_83
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 764
+      width: 256
+      height: 144
+    spriteID: 61128fa57a3cef14c8ec49e223fac694
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 764}
+  - name: SalamandarWitch#2__Frame_84
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 916
+      width: 256
+      height: 144
+    spriteID: 7eb7eac00a44431418608c2c188bc5ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 916}
+  - name: SalamandarWitch#2__Frame_85
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 1068
+      width: 256
+      height: 144
+    spriteID: 65b2ee48fd3b3ba4cb70028a60a768f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 1068}
+  - name: SalamandarWitch#2__Frame_86
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 1220
+      width: 256
+      height: 144
+    spriteID: 5b0ec76c35724a249a0f5df2c5f2b5e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 1220}
+  - name: SalamandarWitch#2__Frame_87
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 1372
+      width: 256
+      height: 144
+    spriteID: cc00b7a00222ae549bf6e266e28f1d19
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 1372}
+  - name: SalamandarWitch#2__Frame_88
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 1524
+      width: 256
+      height: 144
+    spriteID: e657a067fedd98d4280af7c991aee515
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 1524}
+  - name: SalamandarWitch#2__Frame_89
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 1676
+      width: 256
+      height: 144
+    spriteID: 334b454e27cfd364a9122fc3527310fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 1676}
+  - name: SalamandarWitch#2__Frame_90
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 1828
+      width: 256
+      height: 144
+    spriteID: 20067916baf4fce4baa4565f8fa22c5a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 1828}
+  - name: SalamandarWitch#2__Frame_91
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 1980
+      width: 256
+      height: 144
+    spriteID: 1cd1d30dd2447464c80403574ac1a933
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 1980}
+  - name: SalamandarWitch#2__Frame_92
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 2132
+      width: 256
+      height: 144
+    spriteID: 4bbf3533c2aa68f4f95b42f83bd0f652
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 2132}
+  - name: SalamandarWitch#2__Frame_93
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 2284
+      width: 256
+      height: 144
+    spriteID: cf0cc1872ed69504690ddc007ce66def
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 2284}
+  - name: SalamandarWitch#2__Frame_94
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 2436
+      width: 256
+      height: 144
+    spriteID: ec11f5dc5d233454992691f0bc037aa5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 2436}
+  - name: SalamandarWitch#2__Frame_95
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 2588
+      width: 256
+      height: 144
+    spriteID: f9bfbb641090f984f95a17a546a854c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 2588}
+  - name: SalamandarWitch#2__Frame_96
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 2740
+      width: 256
+      height: 144
+    spriteID: 3ba5a295a003e8043861f1a9bdfe2549
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 2740}
+  - name: SalamandarWitch#2__Frame_97
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 2892
+      width: 256
+      height: 144
+    spriteID: acd14a30c377b9740b20737b055db8be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 2892}
+  - name: SalamandarWitch#2__Frame_98
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 3044
+      width: 256
+      height: 144
+    spriteID: e28f4daf87f98d245aaa0bbe1ce6d649
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 3044}
+  - name: SalamandarWitch#2__Frame_99
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 3196
+      width: 256
+      height: 144
+    spriteID: 95a48804abeba6346acdd575b3821fa8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 3196}
+  - name: SalamandarWitch#2__Frame_100
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 3348
+      width: 256
+      height: 144
+    spriteID: 0fe9e8381df63ff46a11da405ea0133d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 3348}
+  - name: SalamandarWitch#2__Frame_101
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 3500
+      width: 256
+      height: 144
+    spriteID: 50596cdb9918ea848ad037613848e6e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 3500}
+  - name: SalamandarWitch#2__Frame_102
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 3652
+      width: 256
+      height: 144
+    spriteID: 4e2d62cf4d260ab428fc6b0f7ec37dd8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 3652}
+  - name: SalamandarWitch#2__Frame_103
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 3804
+      width: 256
+      height: 144
+    spriteID: 0f21ead923bc7794c885c947799d4b20
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 3804}
+  - name: SalamandarWitch#2__Frame_104
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 4
+      width: 256
+      height: 144
+    spriteID: 51600eb6493190b49b3faff5dcad1909
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 4}
+  - name: SalamandarWitch#2__Frame_105
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 156
+      width: 256
+      height: 144
+    spriteID: 84cee228b18fbc442826d1f91d80272f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 156}
+  - name: SalamandarWitch#2__Frame_106
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 308
+      width: 256
+      height: 144
+    spriteID: e25811924043aee439967f2550c6e7df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 308}
+  - name: SalamandarWitch#2__Frame_107
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 460
+      width: 256
+      height: 144
+    spriteID: 6dd4007780563794f9876c3b80cfb467
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 460}
+  - name: SalamandarWitch#2__Frame_108
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 612
+      width: 256
+      height: 144
+    spriteID: 0bb630e0f0ab9aa48bed870255839a87
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 612}
+  - name: SalamandarWitch#2__Frame_109
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 764
+      width: 256
+      height: 144
+    spriteID: c1393122ee203f44098bf11caa704c90
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 764}
+  - name: SalamandarWitch#2__Frame_110
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 916
+      width: 256
+      height: 144
+    spriteID: 58a946e1517e1a249b4b63a434b3dea6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 916}
+  - name: SalamandarWitch#2__Frame_111
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 1068
+      width: 256
+      height: 144
+    spriteID: fed09a3775e20f746933bf4a39b30ffb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 1068}
+  - name: SalamandarWitch#2__Frame_112
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 1220
+      width: 256
+      height: 144
+    spriteID: 8b32737a5e6efbd4491e39fc49892e7c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 1220}
+  - name: SalamandarWitch#2__Frame_113
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 1372
+      width: 256
+      height: 144
+    spriteID: 6f96c8ea799fc654ca4b755c686e9bc5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 1372}
+  - name: SalamandarWitch#2__Frame_114
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 1524
+      width: 256
+      height: 144
+    spriteID: 5aad626322c15f94a85f394e029f17a5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 1524}
+  - name: SalamandarWitch#2__Frame_115
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 1676
+      width: 256
+      height: 144
+    spriteID: 45f397d1c329ecb45b15a50a45bbd555
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 1676}
+  - name: SalamandarWitch#2__Frame_116
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 1828
+      width: 256
+      height: 144
+    spriteID: 7f397b779760d6c4f9bab1313f78097d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 1828}
+  - name: SalamandarWitch#2__Frame_117
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 1980
+      width: 256
+      height: 144
+    spriteID: a2805f15e9207f84e81eb17d82344bc4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 1980}
+  - name: SalamandarWitch#2__Frame_118
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 2132
+      width: 256
+      height: 144
+    spriteID: 45b7d9a6b3f45af4ca078d069e6046d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 2132}
+  - name: SalamandarWitch#2__Frame_119
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 2284
+      width: 256
+      height: 144
+    spriteID: 56fd5521891597a4f8188ea5a0bd35f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 2284}
+  - name: SalamandarWitch#2__Frame_120
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 2436
+      width: 256
+      height: 144
+    spriteID: 8e34eaff7bc826142a8f91a0aa699ed5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 2436}
+  - name: SalamandarWitch#2__Frame_121
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 2588
+      width: 256
+      height: 144
+    spriteID: 43d1561d5a30c4442af09c558cbb9e08
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 2588}
+  - name: SalamandarWitch#2__Frame_122
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 2740
+      width: 256
+      height: 144
+    spriteID: 0901908f24cf30648b385ddbb5306790
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 2740}
+  - name: SalamandarWitch#2__Frame_123
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 2892
+      width: 256
+      height: 144
+    spriteID: 88dbdcbcf626baa4a9923a5134f717d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 2892}
+  - name: SalamandarWitch#2__Frame_124
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 3044
+      width: 256
+      height: 144
+    spriteID: 875a591ced0513b4cbc36ea885f15dd7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 3044}
+  - name: SalamandarWitch#2__Frame_125
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 3196
+      width: 256
+      height: 144
+    spriteID: 718e7abf031824a48b30881bba078068
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 3196}
+  - name: SalamandarWitch#2__Frame_126
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 3348
+      width: 256
+      height: 144
+    spriteID: 17b99fa48f4d32845a815f826ed90f1b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 3348}
+  - name: SalamandarWitch#2__Frame_127
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 3500
+      width: 256
+      height: 144
+    spriteID: 4b1d92c91e5b0694ab1e848a8b8a748d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 3500}
+  - name: SalamandarWitch#2__Frame_128
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 3652
+      width: 256
+      height: 144
+    spriteID: 68ac60e55791a834282b9325c63223fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 3652}
+  - name: SalamandarWitch#2__Frame_129
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 3804
+      width: 256
+      height: 144
+    spriteID: b1e6a55aab6a36f4085e767fd300f0a9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 3804}
+  - name: SalamandarWitch#2__Frame_130
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1324
+      y: 4
+      width: 256
+      height: 144
+    spriteID: 1f3be6337c9e3fb44a38a67b321c5b85
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1324, y: 4}
+  - name: SalamandarWitch#2__Frame_131
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1324
+      y: 156
+      width: 256
+      height: 144
+    spriteID: 74762155d47015a429df4f41ab443312
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1324, y: 156}
+  - name: SalamandarWitch#2__Frame_132
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1324
+      y: 308
+      width: 256
+      height: 144
+    spriteID: 2af547b2b9b475c49826d421b7d3e3be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1324, y: 308}
+  - name: SalamandarWitch#2__Frame_133
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1324
+      y: 460
+      width: 256
+      height: 144
+    spriteID: 8f9e9856fcdaa54429b1e7d4bc64dea0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1324, y: 460}
+  - name: SalamandarWitch#2__Frame_134
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1324
+      y: 612
+      width: 256
+      height: 144
+    spriteID: 577451b4efa08da41baccc43e908627c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1324, y: 612}
+  - name: SalamandarWitch#2__Frame_135
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1324
+      y: 764
+      width: 256
+      height: 144
+    spriteID: db3540c5436fb2841bdfb0262e6d2200
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1324, y: 764}
+  - name: SalamandarWitch#2__Frame_136
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1324
+      y: 916
+      width: 256
+      height: 144
+    spriteID: 092c0b129f2bd174e90a062656c483e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1324, y: 916}
+  - name: SalamandarWitch#2__Frame_137
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1324
+      y: 1068
+      width: 256
+      height: 144
+    spriteID: 46c084db0971d4340b572f70ca464b48
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1324, y: 1068}
+  - name: SalamandarWitch#2__Frame_138
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1324
+      y: 1220
+      width: 256
+      height: 144
+    spriteID: 1da3c341b05d1654da27a058ea85b8c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1324, y: 1220}
+  - name: SalamandarWitch#2__Frame_139
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1324
+      y: 1372
+      width: 256
+      height: 144
+    spriteID: dd78e38f6b325e244bdc86d91841defb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1324, y: 1372}
+  - name: SalamandarWitch#2__Frame_140
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1324
+      y: 1524
+      width: 256
+      height: 144
+    spriteID: 6f6f460dfdda32c45b8e8f437f75a84d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1324, y: 1524}
+  - name: SalamandarWitch#2__Frame_141
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1324
+      y: 1676
+      width: 256
+      height: 144
+    spriteID: 16e91d64107b0ee4cb04904864c19219
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1324, y: 1676}
+  - name: SalamandarWitch#2__Frame_142
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1324
+      y: 1828
+      width: 256
+      height: 144
+    spriteID: 8c295395756458047986c8f6182f8938
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1324, y: 1828}
+  - name: SalamandarWitch#2__Frame_143
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1324
+      y: 1980
+      width: 256
+      height: 144
+    spriteID: bff1f6109f73d354ebed83569af4f35a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1324, y: 1980}
+  - name: SalamandarWitch#2__Frame_144
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1324
+      y: 2132
+      width: 256
+      height: 144
+    spriteID: d60b95c8a6f9c2d49922e3eeec20ecc2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1324, y: 2132}
+  - name: SalamandarWitch#2__Frame_145
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1324
+      y: 2284
+      width: 256
+      height: 144
+    spriteID: 32ec29f0417dd564b982e5bdd580529c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1324, y: 2284}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1418947761
+    name: SalamandarWitch#2_
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: SalamandarWitch#2__Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 594ef44879a213c45a49ff0e01bc4adb
+    - name: SalamandarWitch#2__Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 3d60bca811af63047a4cfc683b6227b8
+    - name: SalamandarWitch#2__Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 49a336fc228441147abcc5c18fba2614
+    - name: SalamandarWitch#2__Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: edcc524f017c92b45bee5a961e408f60
+    - name: SalamandarWitch#2__Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 11186c9fe736d1447a6cef12f2327ed7
+    - name: SalamandarWitch#2__Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 086701360ce50784eb5d6ff7eb8a5ebf
+    - name: SalamandarWitch#2__Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 8f17fe31c6a06ae479329cd750760263
+    - name: SalamandarWitch#2__Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: ad34f29ae5dfc1949b4412bc3f72c366
+    - name: SalamandarWitch#2__Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: ee67dfd3acf304d48ae89e0d556d65ba
+    - name: SalamandarWitch#2__Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: ec4ca99a3bffaa84282e99a2ff0753e1
+    - name: SalamandarWitch#2__Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 70c16afa08c16734eb58531ea604ee03
+    - name: SalamandarWitch#2__Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 018f79df2b387604983cf0633a9be257
+    - name: SalamandarWitch#2__Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 52bbcdfeb0dbf124fa0d880995126b7e
+    - name: SalamandarWitch#2__Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 7d6e4bc554d38774b8ce2e631bc659ec
+    - name: SalamandarWitch#2__Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 6ea67f573ed5a8b459ff2a6b244911dc
+    - name: SalamandarWitch#2__Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: ec9730ff6cd7f4a48a1059d7ee937eb4
+    - name: SalamandarWitch#2__Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: fc24484df6b5e69458f6b3bdac861b84
+    - name: SalamandarWitch#2__Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 910056f97fadcd34487e25d341b44dcf
+    - name: SalamandarWitch#2__Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 4cf9e94f739e67c4baa4eac6a9898833
+    - name: SalamandarWitch#2__Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 91dd35972103a35469af46417d470232
+    - name: SalamandarWitch#2__Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 4f7276ad417b239469d5e42376f7f3c5
+    - name: SalamandarWitch#2__Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: f381f10777b3ba249a220169396bfaeb
+    - name: SalamandarWitch#2__Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: e697626f55546a94db9d6b947b0372f8
+    - name: SalamandarWitch#2__Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 1b468ffc3c6017c488f8212007bcb408
+    - name: SalamandarWitch#2__Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: b560d72a2d961b747bf31da6852d8790
+    - name: SalamandarWitch#2__Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: cd8138246ec56774ba0bfc687118c5b1
+    - name: SalamandarWitch#2__Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 121b9641f7f7cb547ae8d7de74572eea
+    - name: SalamandarWitch#2__Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: fd1b84fd05ef01b4884dacb36abdb5aa
+    - name: SalamandarWitch#2__Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: afffb6aaa6d460446af45afb5d14c9a3
+    - name: SalamandarWitch#2__Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 66f676107c0befe4c911b056a79f2ef9
+    - name: SalamandarWitch#2__Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 7d79fee6888cd9b4fa71eb2ee74f442b
+    - name: SalamandarWitch#2__Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 55e64af85911da5459ea087d5735aa63
+    - name: SalamandarWitch#2__Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 01a95151b7436144c9ecf0a8fdc76e23
+    - name: SalamandarWitch#2__Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 6649790ea980b89428c5f99c338b1e9a
+    - name: SalamandarWitch#2__Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 14f13b4ff640d9e4da3df2b02046ff14
+    - name: SalamandarWitch#2__Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 526f00f2f3813b34288a6c52be2ac59d
+    - name: SalamandarWitch#2__Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: d0e179a559a0d1c41ac61a9c5f7521e1
+    - name: SalamandarWitch#2__Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: a8ba43e4da5233646a656f580f7dafef
+    - name: SalamandarWitch#2__Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 1f05fd1917490b84796fbf28b69130bd
+    - name: SalamandarWitch#2__Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 160445c4f6edd5a4cb97552e69f885c6
+    - name: SalamandarWitch#2__Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: d50a5872c6d5eca40a57ea9f5ac11b81
+    - name: SalamandarWitch#2__Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: fc66d1d792f5dbf4bbc126c62cfc161b
+    - name: SalamandarWitch#2__Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: b16937b66992f964badea4130c26152d
+    - name: SalamandarWitch#2__Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: fdfb82b780e365b4a8a921bcbdcb489b
+    - name: SalamandarWitch#2__Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: f2e4285f94600d34aaa8959c8bc7e8ef
+    - name: SalamandarWitch#2__Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 4bc181629bd780649adc487dea6b0c24
+    - name: SalamandarWitch#2__Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 79ddd34c433fc654791fd714f61b7f3e
+    - name: SalamandarWitch#2__Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 7e9cf56683b8df14e86dadd87f4b9dc6
+    - name: SalamandarWitch#2__Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: b47a364223ec66146aeb41de7d77c3d0
+    - name: SalamandarWitch#2__Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 2dc05f84d9281584ba6c43fd6288f115
+    - name: SalamandarWitch#2__Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: faa2b764b6316fb448cb61866cd8a272
+    - name: SalamandarWitch#2__Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: d3c06e0dc66717b45ae4a730340a3ee0
+    - name: SalamandarWitch#2__Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 63145f6fad5e0c84f8d9c80e0776e38f
+    - name: SalamandarWitch#2__Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 19d5a207aca2c154880004fcae3cdf6e
+    - name: SalamandarWitch#2__Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 397649843a9fc3d48baef2d513e47169
+    - name: SalamandarWitch#2__Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: e49c92b038d08df429d2b54fc6bc2af2
+    - name: SalamandarWitch#2__Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: f0981f6bc5529e84aac282498c3bb609
+    - name: SalamandarWitch#2__Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: c57c79768aa062f4e8c133d6c04f3f46
+    - name: SalamandarWitch#2__Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 2a1b81b5d4608bb45b571d8d25fce074
+    - name: SalamandarWitch#2__Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: beaf5c93e931d5845963baf3bca9a33b
+    - name: SalamandarWitch#2__Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: e306a080d71106e4b8af39a7694d818d
+    - name: SalamandarWitch#2__Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 8220900123c893542a2eccf371cd966f
+    - name: SalamandarWitch#2__Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 0dead6baae2e7cb41b7b03f243f49d7c
+    - name: SalamandarWitch#2__Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 24c8fad171553494bb01614889437a37
+    - name: SalamandarWitch#2__Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 50de3ea1192776940bd0309b393d43b3
+    - name: SalamandarWitch#2__Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: fde78486b8ba5c94aab62715f06eaae5
+    - name: SalamandarWitch#2__Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 5b30f997d85e1cb45b5b6e1de7b739c9
+    - name: SalamandarWitch#2__Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: acfe65d2665d809479ac8cb41c67c847
+    - name: SalamandarWitch#2__Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 6f5f5481c88bc0347b95458939b5264b
+    - name: SalamandarWitch#2__Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: a0f2c5104c4916642b5bcbbb86975b01
+    - name: SalamandarWitch#2__Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 300645719a8b687468f82e85932a2a8b
+    - name: SalamandarWitch#2__Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 425d3a6395c942548b7596ceac77774a
+    - name: SalamandarWitch#2__Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 9a266c56856ee9b4e8d84a61b09d2390
+    - name: SalamandarWitch#2__Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 98b9b09552ae44a4092914069227bde3
+    - name: SalamandarWitch#2__Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 699f1c1095b958b4a8018c85141786c3
+    - name: SalamandarWitch#2__Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 8e13a29b219c310489ce436383f23353
+    - name: SalamandarWitch#2__Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: f454df79b7327094b9d4d0e9be73f205
+    - name: SalamandarWitch#2__Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: c2214c14671e5a049879bb2af09ba2c2
+    - name: SalamandarWitch#2__Frame_78
+      frameIndex: 78
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: f31b311d04031bb4daafa310ff76b5d2
+    - name: SalamandarWitch#2__Frame_79
+      frameIndex: 79
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: afeb3f2288fbdb14190b816daace1933
+    - name: SalamandarWitch#2__Frame_80
+      frameIndex: 80
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: fa2da44fad200eb4a81860ef94056239
+    - name: SalamandarWitch#2__Frame_81
+      frameIndex: 81
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 47e759486a28b55478d082a416d927ce
+    - name: SalamandarWitch#2__Frame_82
+      frameIndex: 82
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 3696b89371c800d4ab154c81e98b08dd
+    - name: SalamandarWitch#2__Frame_83
+      frameIndex: 83
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 61128fa57a3cef14c8ec49e223fac694
+    - name: SalamandarWitch#2__Frame_84
+      frameIndex: 84
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 7eb7eac00a44431418608c2c188bc5ea
+    - name: SalamandarWitch#2__Frame_85
+      frameIndex: 85
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 65b2ee48fd3b3ba4cb70028a60a768f8
+    - name: SalamandarWitch#2__Frame_86
+      frameIndex: 86
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 5b0ec76c35724a249a0f5df2c5f2b5e1
+    - name: SalamandarWitch#2__Frame_87
+      frameIndex: 87
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: cc00b7a00222ae549bf6e266e28f1d19
+    - name: SalamandarWitch#2__Frame_88
+      frameIndex: 88
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: e657a067fedd98d4280af7c991aee515
+    - name: SalamandarWitch#2__Frame_89
+      frameIndex: 89
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 334b454e27cfd364a9122fc3527310fd
+    - name: SalamandarWitch#2__Frame_90
+      frameIndex: 90
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 20067916baf4fce4baa4565f8fa22c5a
+    - name: SalamandarWitch#2__Frame_91
+      frameIndex: 91
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 1cd1d30dd2447464c80403574ac1a933
+    - name: SalamandarWitch#2__Frame_92
+      frameIndex: 92
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 4bbf3533c2aa68f4f95b42f83bd0f652
+    - name: SalamandarWitch#2__Frame_93
+      frameIndex: 93
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: cf0cc1872ed69504690ddc007ce66def
+    - name: SalamandarWitch#2__Frame_94
+      frameIndex: 94
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: ec11f5dc5d233454992691f0bc037aa5
+    - name: SalamandarWitch#2__Frame_95
+      frameIndex: 95
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: f9bfbb641090f984f95a17a546a854c8
+    - name: SalamandarWitch#2__Frame_96
+      frameIndex: 96
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 3ba5a295a003e8043861f1a9bdfe2549
+    - name: SalamandarWitch#2__Frame_97
+      frameIndex: 97
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: acd14a30c377b9740b20737b055db8be
+    - name: SalamandarWitch#2__Frame_98
+      frameIndex: 98
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: e28f4daf87f98d245aaa0bbe1ce6d649
+    - name: SalamandarWitch#2__Frame_99
+      frameIndex: 99
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 95a48804abeba6346acdd575b3821fa8
+    - name: SalamandarWitch#2__Frame_100
+      frameIndex: 100
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 0fe9e8381df63ff46a11da405ea0133d
+    - name: SalamandarWitch#2__Frame_101
+      frameIndex: 101
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 50596cdb9918ea848ad037613848e6e5
+    - name: SalamandarWitch#2__Frame_102
+      frameIndex: 102
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 4e2d62cf4d260ab428fc6b0f7ec37dd8
+    - name: SalamandarWitch#2__Frame_103
+      frameIndex: 103
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 0f21ead923bc7794c885c947799d4b20
+    - name: SalamandarWitch#2__Frame_104
+      frameIndex: 104
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 51600eb6493190b49b3faff5dcad1909
+    - name: SalamandarWitch#2__Frame_105
+      frameIndex: 105
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 84cee228b18fbc442826d1f91d80272f
+    - name: SalamandarWitch#2__Frame_106
+      frameIndex: 106
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: e25811924043aee439967f2550c6e7df
+    - name: SalamandarWitch#2__Frame_107
+      frameIndex: 107
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 6dd4007780563794f9876c3b80cfb467
+    - name: SalamandarWitch#2__Frame_108
+      frameIndex: 108
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 0bb630e0f0ab9aa48bed870255839a87
+    - name: SalamandarWitch#2__Frame_109
+      frameIndex: 109
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: c1393122ee203f44098bf11caa704c90
+    - name: SalamandarWitch#2__Frame_110
+      frameIndex: 110
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 58a946e1517e1a249b4b63a434b3dea6
+    - name: SalamandarWitch#2__Frame_111
+      frameIndex: 111
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: fed09a3775e20f746933bf4a39b30ffb
+    - name: SalamandarWitch#2__Frame_112
+      frameIndex: 112
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 8b32737a5e6efbd4491e39fc49892e7c
+    - name: SalamandarWitch#2__Frame_113
+      frameIndex: 113
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 6f96c8ea799fc654ca4b755c686e9bc5
+    - name: SalamandarWitch#2__Frame_114
+      frameIndex: 114
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 5aad626322c15f94a85f394e029f17a5
+    - name: SalamandarWitch#2__Frame_115
+      frameIndex: 115
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 45f397d1c329ecb45b15a50a45bbd555
+    - name: SalamandarWitch#2__Frame_116
+      frameIndex: 116
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 7f397b779760d6c4f9bab1313f78097d
+    - name: SalamandarWitch#2__Frame_117
+      frameIndex: 117
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: a2805f15e9207f84e81eb17d82344bc4
+    - name: SalamandarWitch#2__Frame_118
+      frameIndex: 118
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 45b7d9a6b3f45af4ca078d069e6046d0
+    - name: SalamandarWitch#2__Frame_119
+      frameIndex: 119
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 56fd5521891597a4f8188ea5a0bd35f3
+    - name: SalamandarWitch#2__Frame_120
+      frameIndex: 120
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 8e34eaff7bc826142a8f91a0aa699ed5
+    - name: SalamandarWitch#2__Frame_121
+      frameIndex: 121
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 43d1561d5a30c4442af09c558cbb9e08
+    - name: SalamandarWitch#2__Frame_122
+      frameIndex: 122
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 0901908f24cf30648b385ddbb5306790
+    - name: SalamandarWitch#2__Frame_123
+      frameIndex: 123
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 88dbdcbcf626baa4a9923a5134f717d1
+    - name: SalamandarWitch#2__Frame_124
+      frameIndex: 124
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 875a591ced0513b4cbc36ea885f15dd7
+    - name: SalamandarWitch#2__Frame_125
+      frameIndex: 125
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 718e7abf031824a48b30881bba078068
+    - name: SalamandarWitch#2__Frame_126
+      frameIndex: 126
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 17b99fa48f4d32845a815f826ed90f1b
+    - name: SalamandarWitch#2__Frame_127
+      frameIndex: 127
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 4b1d92c91e5b0694ab1e848a8b8a748d
+    - name: SalamandarWitch#2__Frame_128
+      frameIndex: 128
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 68ac60e55791a834282b9325c63223fc
+    - name: SalamandarWitch#2__Frame_129
+      frameIndex: 129
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: b1e6a55aab6a36f4085e767fd300f0a9
+    - name: SalamandarWitch#2__Frame_130
+      frameIndex: 130
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 1f3be6337c9e3fb44a38a67b321c5b85
+    - name: SalamandarWitch#2__Frame_131
+      frameIndex: 131
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 74762155d47015a429df4f41ab443312
+    - name: SalamandarWitch#2__Frame_132
+      frameIndex: 132
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 2af547b2b9b475c49826d421b7d3e3be
+    - name: SalamandarWitch#2__Frame_133
+      frameIndex: 133
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 8f9e9856fcdaa54429b1e7d4bc64dea0
+    - name: SalamandarWitch#2__Frame_134
+      frameIndex: 134
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 577451b4efa08da41baccc43e908627c
+    - name: SalamandarWitch#2__Frame_135
+      frameIndex: 135
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: db3540c5436fb2841bdfb0262e6d2200
+    - name: SalamandarWitch#2__Frame_136
+      frameIndex: 136
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 092c0b129f2bd174e90a062656c483e0
+    - name: SalamandarWitch#2__Frame_137
+      frameIndex: 137
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 46c084db0971d4340b572f70ca464b48
+    - name: SalamandarWitch#2__Frame_138
+      frameIndex: 138
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 1da3c341b05d1654da27a058ea85b8c5
+    - name: SalamandarWitch#2__Frame_139
+      frameIndex: 139
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: dd78e38f6b325e244bdc86d91841defb
+    - name: SalamandarWitch#2__Frame_140
+      frameIndex: 140
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 6f6f460dfdda32c45b8e8f437f75a84d
+    - name: SalamandarWitch#2__Frame_141
+      frameIndex: 141
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 16e91d64107b0ee4cb04904864c19219
+    - name: SalamandarWitch#2__Frame_142
+      frameIndex: 142
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 8c295395756458047986c8f6182f8938
+    - name: SalamandarWitch#2__Frame_143
+      frameIndex: 143
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: bff1f6109f73d354ebed83569af4f35a
+    - name: SalamandarWitch#2__Frame_144
+      frameIndex: 144
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: d60b95c8a6f9c2d49922e3eeec20ecc2
+    - name: SalamandarWitch#2__Frame_145
+      frameIndex: 145
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 144
+      spriteId: 32ec29f0417dd564b982e5bdd580529c
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 256, y: 144}

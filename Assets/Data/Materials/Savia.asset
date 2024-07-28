@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d5738d234d2c044bb24b79ac506ccd8, type: 3}
+  m_Name: Savia
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: Savia Plant
+  icon: {fileID: 657366318, guid: be55291aae08d434db3da3b59db3ab4a, type: 3}
