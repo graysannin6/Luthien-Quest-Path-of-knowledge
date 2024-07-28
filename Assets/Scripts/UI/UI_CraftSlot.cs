@@ -5,7 +5,6 @@ using UnityEngine.EventSystems;
 
 public class UI_CraftSlot : UI_ItemSlot
 {   
-    
     protected override void Start()
     {
         base.Start();
