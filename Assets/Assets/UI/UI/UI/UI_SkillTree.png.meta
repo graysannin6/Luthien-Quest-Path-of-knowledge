@@ -134,7 +134,49 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: UI_SkillTree_0
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 314
+        width: 301
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7e92d71049c8c45bc39b2325061688
+      internalID: -1782904879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_SkillTree_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 345
+        width: 397
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50883bba78b5dd428fa2313d621b74d
+      internalID: 633905706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +187,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      UI_SkillTree_0: -1782904879
+      UI_SkillTree_1: 633905706
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
