@@ -46,7 +46,18 @@ public class UI_CraftWindow : MonoBehaviour
         itemName.text = _data.itemName;
         itemDescription.text = _data.GetDescription();
 
-        craftButton.onClick.AddListener(() => Inventory.instance.CanCraft(_data, _data.craftingMaterials));
+        Debug.Log($"Required skill for crafting: {_data.requiredSkill}");
+        if (SkillManager.instance.IsSkillUnlocked(_data.requiredSkill))
+        {
+            craftButton.interactable = true;
+            craftButton.onClick.AddListener(() => Inventory.instance.CanCraft(_data, _data.craftingMaterials));
+            
+        }
+        else
+        {
+            craftButton.interactable = false;
+            
+        }
 
     }
 }   

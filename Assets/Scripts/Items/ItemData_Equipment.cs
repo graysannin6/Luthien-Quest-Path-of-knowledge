@@ -17,7 +17,11 @@ public class ItemData_Equipment : ItemData
     public EquipmentType equipmentType;
     public ItemEffect[] effects;
 
-    private int descriptionLength;	
+    private int descriptionLength;
+
+    [Header("Skill required")]	
+
+    public string requiredSkill;
 
     [Header("Major stats")]
     public int health;

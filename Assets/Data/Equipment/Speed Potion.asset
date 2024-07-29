@@ -17,6 +17,7 @@ MonoBehaviour:
   icon: {fileID: 1998587261, guid: be55291aae08d434db3da3b59db3ab4a, type: 3}
   equipmentType: 3
   effects: []
+  requiredSkill: Swiftfoot Elixir
   health: 0
   mana: 0
   stamina: 0

@@ -26,14 +26,16 @@ public class UI_CraftList : MonoBehaviour , IPointerDownHandler
         }
 
         for (int i = 0; i < craftEquipment.Count; i++)
-        {
+        {   
+            
             GameObject newSlot = Instantiate(craftSlotPrefab, craftSlotParent);
             newSlot.GetComponent<UI_CraftSlot>().SetupCraftSlot(craftEquipment[i]);
         }
     }
 
     public void OnPointerDown(PointerEventData eventData)
-    {
+    {   
+        
         SetupCraftList();
     }
 

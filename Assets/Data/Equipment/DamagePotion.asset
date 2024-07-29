@@ -10,22 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7161280504a339849a4d773cf3dd11af, type: 3}
-  m_Name: HealPotion
+  m_Name: DamagePotion
   m_EditorClassIdentifier: 
   itemType: 0
-  itemName: Potion Heal
-  icon: {fileID: 938343867, guid: be55291aae08d434db3da3b59db3ab4a, type: 3}
+  itemName: Damage Potion
+  icon: {fileID: 1361707535, guid: be55291aae08d434db3da3b59db3ab4a, type: 3}
   equipmentType: 3
   effects: []
-  requiredSkill: Herbal Lore
-  health: 5
+  requiredSkill: ' Berserker''s Draught'
+  health: 0
   mana: 0
   stamina: 0
-  damage: 0
+  damage: 15
   attackSpeed: 0
   critChance: 0
-  craftingMaterials:
-  - data: {fileID: 11400000, guid: a80c77d8806eff94a8d5cfebbf24fc42, type: 2}
-    stackSize: 2
-  - data: {fileID: 11400000, guid: 59d4d2ec8c58a39408c5dba8fb4cbad6, type: 2}
-    stackSize: 1
+  craftingMaterials: []
