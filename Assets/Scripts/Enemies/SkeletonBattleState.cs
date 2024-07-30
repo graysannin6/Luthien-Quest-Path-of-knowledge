@@ -17,8 +17,7 @@ public class SkeletonBattleState : EnemyState
     {
         base.Enter();
 
-        //to optimize later
-        player = GameObject.Find("Player").transform;
+        player = PlayerManager.instance.player.transform;
     }
 
     public override void Update()

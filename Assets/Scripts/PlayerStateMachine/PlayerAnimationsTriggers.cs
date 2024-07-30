@@ -20,4 +20,9 @@ public class PlayerAnimationsTriggers : MonoBehaviour
             hit.GetComponent<Enemy>()?.Damage();
         }
     }
+
+    private void ThrowPotion()
+    {
+        SkillManager.instance.throwSkill.CreatePotion();
+    }
 }

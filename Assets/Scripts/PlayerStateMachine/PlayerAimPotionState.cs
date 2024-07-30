@@ -2,23 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMoveState : PlayerGroundedState
+public class PlayerAimPotionState : PlayerState
 {
-    public PlayerMoveState(Player _player, PlayerStateMachine _stateMachine, string _animBoolName) : base(_player, _stateMachine, _animBoolName)
+    public PlayerAimPotionState(Player _player, PlayerStateMachine _stateMachine, string _animBoolName) : base(_player, _stateMachine, _animBoolName)
     {
     }
 
     public override void Enter()
     {
         base.Enter();
+        player.SetZeroVelocity();
+        player.skill.throwSkill.DotsActive(true);
     }
 
     public override void Update()
     {
-        player.SetVelocity(xInput * player.moveSpeed, rb.velocity.y);
-
         base.Update();
-        if (xInput == 0 || player.isWallDetected())
+
+        if (Input.GetKeyUp(KeyCode.Mouse1))
             stateMachine.ChangeState(player.idleState);
     }
 
