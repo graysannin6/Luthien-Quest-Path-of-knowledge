@@ -55,21 +55,14 @@ public class Entity : MonoBehaviour
 
     public virtual void SetupKnockbackDirection(Transform _damageDirection)
     {
-        if (_damageDirection.position.x > transform.position.x)
-        {
-            knockBackDir = -1;
-        }
-        else if (_damageDirection.position.x < transform.position.x)
-        {
-            knockBackDir = 1;
-        }
+        knockBackDir = _damageDirection.position.x > transform.position.x ? -1 : 1;
     }
 
     protected virtual IEnumerator HitKnockback()
     {
         isKnocked = true;
 
-        rb.velocity = new Vector2(knockBackPower.x * knockBackDir, knockBackPower.y);
+        rb.velocity = new Vector2(knockBackPower.x * -facingDir, knockBackPower.y);
 
         yield return new WaitForSeconds(knockBackDuration);
         isKnocked = false;
