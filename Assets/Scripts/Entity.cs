@@ -8,7 +8,13 @@ public class Entity : MonoBehaviour
     #region Components
     public Animator anim { get; private set; }
     public Rigidbody2D rb { get; private set; }
+    public EntityFX fx { get; private set; }
     #endregion
+
+    [Header("Knockback info")]
+    [SerializeField] protected Vector2 knockBackPower;
+    [SerializeField] protected float knockBackDuration;
+    protected bool isKnocked;
 
     [Header("Collision info")]
     public Transform attackCheck;
@@ -18,6 +24,8 @@ public class Entity : MonoBehaviour
     [SerializeField] protected Transform wallCheck;
     [SerializeField] protected float wallCheckDistance;
     [SerializeField] protected LayerMask whatIsGround;
+
+    public int knockBackDir { get; private set; }
 
     public int facingDir { get; private set; } = 1;
     protected bool facingRight = true;
@@ -29,12 +37,42 @@ public class Entity : MonoBehaviour
 
     protected virtual void Start()
     {
+        fx = GetComponent<EntityFX>();
         anim = GetComponentInChildren<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
 
     protected virtual void Update()
     {
+
+    }
+
+    public virtual void Damage()
+    {
+        fx.StartCoroutine("FlashFX");
+        StartCoroutine("HitKnockback");
+    }
+
+    public virtual void SetupKnockbackDirection(Transform _damageDirection)
+    {
+        if (_damageDirection.position.x > transform.position.x)
+        {
+            knockBackDir = -1;
+        }
+        else if (_damageDirection.position.x < transform.position.x)
+        {
+            knockBackDir = 1;
+        }
+    }
+
+    protected virtual IEnumerator HitKnockback()
+    {
+        isKnocked = true;
+
+        rb.velocity = new Vector2(knockBackPower.x * knockBackDir, knockBackPower.y);
+
+        yield return new WaitForSeconds(knockBackDuration);
+        isKnocked = false;
 
     }
 
@@ -70,10 +108,17 @@ public class Entity : MonoBehaviour
     }
     #endregion
     #region Velocity
-    public void SetZeroVelocity() => rb.velocity = new Vector2(0, 0);
+    public void SetZeroVelocity()
+    {
+        if (isKnocked)
+            return;
+        rb.velocity = new Vector2(0, 0);
+    }
 
     public void SetVelocity(float _xVelocity, float _yVelocity)
     {
+        if (isKnocked)
+            return;
         rb.velocity = new Vector2(_xVelocity, _yVelocity);
         FlipController(_xVelocity);
     }
