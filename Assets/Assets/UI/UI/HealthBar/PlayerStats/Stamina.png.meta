@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 56ecf1f6cbaeb244b9df13a5d776e1f0
+guid: 0d844254433da4445abeba8397347932
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -81,33 +81,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -125,6 +99,32 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -150,8 +150,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5482f1ff94d60c64a9403577fdce7c4f
-      internalID: 237626965
+      spriteID: 0f28ccb13ae032743b9fe392d03a600b
+      internalID: 464263289
       vertices: []
       indices: 
       edges: []
@@ -171,8 +171,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a8b9b9a5ff5e9845a009e998cfa8500
-      internalID: 1973094010
+      spriteID: 94b6fa62d35ffc84b80119553590e663
+      internalID: 1497858132
       vertices: []
       indices: 
       edges: []
@@ -192,8 +192,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 043e2d1e27f76cd40a82fbc8e6b2075e
-      internalID: -577465268
+      spriteID: 42972f7398c257840ab806e606d93221
+      internalID: 1808441637
       vertices: []
       indices: 
       edges: []
@@ -213,8 +213,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c094288948ba2c469cf07ed86d73a91
-      internalID: 1692093121
+      spriteID: 7202c6706a9653147a9011201518d515
+      internalID: -1709087273
       vertices: []
       indices: 
       edges: []
@@ -234,8 +234,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36307565d50c5cc41a6d244c266700ac
-      internalID: 1819885557
+      spriteID: ed2b63b4846642a48bbe95bfc39a2a48
+      internalID: -687741302
       vertices: []
       indices: 
       edges: []
@@ -255,8 +255,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fa077e4a7f52524ab40091ff5d31a05
-      internalID: -1632396790
+      spriteID: 4701d136eb825144294391977e6bc3bc
+      internalID: 671711463
       vertices: []
       indices: 
       edges: []
@@ -272,12 +272,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Stamina_0: 237626965
-      Stamina_1: 1973094010
-      Stamina_2: -577465268
-      Stamina_3: 1692093121
-      Stamina_4: 1819885557
-      Stamina_5: -1632396790
+      Stamina_0: 464263289
+      Stamina_1: 1497858132
+      Stamina_2: 1808441637
+      Stamina_3: -1709087273
+      Stamina_4: -687741302
+      Stamina_5: 671711463
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
