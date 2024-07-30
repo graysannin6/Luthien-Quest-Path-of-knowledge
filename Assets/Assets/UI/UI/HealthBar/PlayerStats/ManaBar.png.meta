@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fcd9c2d0fb6719c4ca681723d24812fd
+guid: a4da0459f206d4e408bef8e8b5d0308e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -81,33 +81,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -125,6 +99,32 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -150,8 +150,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 439b02d7cf0078948a9b295aeee086c9
-      internalID: -1120842626
+      spriteID: 11b75091e4f4d5948bf5a82a20bf5d3c
+      internalID: 1304374785
       vertices: []
       indices: 
       edges: []
@@ -166,13 +166,13 @@ TextureImporter:
         height: 2
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 17, y: 0, z: 5, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cfa6bca53b992f428139b1ee5c3d789
-      internalID: -592002748
+      spriteID: c5de422ce7e6def44bc36d4b7e9f8900
+      internalID: 1522529633
       vertices: []
       indices: 
       edges: []
@@ -192,8 +192,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b53f4ece73718c849a9cc97738831f72
-      internalID: -1778148050
+      spriteID: 27c8fba5c65b39d489b7ed22e93772df
+      internalID: 806503904
       vertices: []
       indices: 
       edges: []
@@ -213,8 +213,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2f5a105123cb1749b1900707ee1e3c8
-      internalID: 1405785965
+      spriteID: ccc8f659a36375841840cae064751451
+      internalID: 2105092133
       vertices: []
       indices: 
       edges: []
@@ -229,19 +229,82 @@ TextureImporter:
         height: 4
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 0, z: 1, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 393c0aa5ebd9e68419d561dfed59e759
-      internalID: 1127980682
+      spriteID: 79a8bf805c4bd5c4ebef142d4abf322a
+      internalID: 1744262188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
       name: ManaBar_5
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 41
+        width: 43
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 3, z: 4, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6f9d446b3d6214bafc46ca02d71831
+      internalID: -291138381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManaBar_6
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 28
+        width: 41
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 0, z: 3, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72611ddf7320e6740a351542137d5493
+      internalID: -531713667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManaBar_7
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 20
+        width: 37
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1522850cbb987848a85698bc0deb66b
+      internalID: -664034914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManaBar_8
       rect:
         serializedVersion: 2
         x: 37
@@ -255,71 +318,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1417c94464f08fd45aedf76061efe6c5
-      internalID: -1292212684
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ManaBar_6
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 20
-        width: 37
-        height: 2
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f1b6bcf0bae9ea46a10bb0c72204fe4
-      internalID: -348128585
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ManaBar_7
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 41
-        width: 43
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5581699aaa5927b4fa4bf6ec60c1c2b7
-      internalID: 1974871254
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ManaBar_8
-      rect:
-        serializedVersion: 2
-        x: 83
-        y: 28
-        width: 41
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c2380df512cab7b4ba50aedacccfeb84
-      internalID: -1477597722
+      spriteID: 78fc3eb28adc64446877bd3e9f6bb10a
+      internalID: -634418844
       vertices: []
       indices: 
       edges: []
@@ -334,13 +334,13 @@ TextureImporter:
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 4, y: 3, z: 4, w: 3}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44fecf2ac5a1c5e4588a4a8a4da0f651
-      internalID: 466302077
+      spriteID: 96672c07af119854e83538979969425e
+      internalID: -692399728
       vertices: []
       indices: 
       edges: []
@@ -356,16 +356,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ManaBar_0: -1120842626
-      ManaBar_1: -592002748
-      ManaBar_2: -1778148050
-      ManaBar_3: 1405785965
-      ManaBar_4: 1127980682
-      ManaBar_5: -1292212684
-      ManaBar_6: 1899496055
-      ManaBar_7: -348128585
-      ManaBar_8: 1974871254
-      ManaBar_9: -1477597722
+      ManaBar_0: 1304374785
+      ManaBar_1: 1522529633
+      ManaBar_2: 806503904
+      ManaBar_3: 2105092133
+      ManaBar_4: 1744262188
+      ManaBar_5: -291138381
+      ManaBar_6: -531713667
+      ManaBar_7: -664034914
+      ManaBar_8: -634418844
+      ManaBar_9: -692399728
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
