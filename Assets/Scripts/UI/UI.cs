@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class UI : MonoBehaviour
 {
     [SerializeField] private GameObject characterUI;
@@ -16,6 +17,8 @@ public class UI : MonoBehaviour
 
     [SerializeField] private GameObject warningMessage;
 
+    [SerializeField] private GameObject inGame_UI;
+
 
 
     
@@ -26,9 +29,12 @@ public class UI : MonoBehaviour
     [SerializeField] private string requiredCraftSkillName; // The name of the skill required to unlock the craft UI
 
     void Start()
-    {
-        SwitchTo(null);
-       
+    {   
+        
+        SwitchTo(inGame_UI);
+        itemToolTip.gameObject.SetActive(false);
+        
+
         
     }
 
@@ -37,7 +43,7 @@ public class UI : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.C))
         {
             SwitchWithKeyTo(characterUI);
-            Debug.Log("Character UI");
+            
         }
 
         if (Input.GetKeyDown(KeyCode.B))
@@ -65,10 +71,12 @@ public class UI : MonoBehaviour
         for (int i = 0; i < transform.childCount; i++)
         {
             transform.GetChild(i).gameObject.SetActive(false);
+            
         }
 
         if (_menu != null)
             _menu.SetActive(true);
+            
     }
 
     public void SwitchWithKeyTo(GameObject _menu)
