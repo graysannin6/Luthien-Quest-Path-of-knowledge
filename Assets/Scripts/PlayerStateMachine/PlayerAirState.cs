@@ -26,7 +26,7 @@ public class PlayerAirState : PlayerState
         if (xInput != 0 && !player.isWallDetected())
             player.SetVelocity(player.moveSpeed * .8f * xInput, rb.velocity.y);
 
-
+        player.DoubleJump();
     }
 
     public override void Exit()

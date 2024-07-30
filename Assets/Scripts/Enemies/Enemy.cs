@@ -40,8 +40,8 @@ public class Enemy : Entity
 
     public virtual void OpenCounterAttackWindow()
     {
-        canBeStunned = true;
         counterImage.SetActive(true);
+        canBeStunned = true;
     }
 
     public virtual void CloseCounterAttackWindow()

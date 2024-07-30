@@ -12,6 +12,10 @@ public class Player : Entity
     public float moveSpeed = 12f;
     public float jumpForce;
 
+
+    private bool isDoubleJumpingAllowed = true;
+    public bool isDoubleJumping = false;
+
     [Header("Dash info")]
     [SerializeField] private float dashCooldown;
     private float dashUsageTimer;
@@ -32,10 +36,12 @@ public class Player : Entity
     public PlayerCounterAttackState counterAttack { get; private set; }
     #endregion
 
+    private RippleEffect rippleEffect;
+
     protected override void Awake()
     {
         base.Awake();
-
+        rippleEffect = GetComponent<RippleEffect>();
         stateMachine = new PlayerStateMachine();
         idleState = new PlayerIdleState(this, stateMachine, "Idle");
         moveState = new PlayerMoveState(this, stateMachine, "Move");
@@ -47,6 +53,8 @@ public class Player : Entity
 
         primaryAttack = new PlayerPrimaryAttackState(this, stateMachine, "Attack");
         counterAttack = new PlayerCounterAttackState(this, stateMachine, "CounterAttack");
+
+        Debug.Log(isDoubleJumpingAllowed);
     }
 
     protected override void Start()
@@ -88,8 +96,19 @@ public class Player : Entity
 
             if (dashDir == 0)
                 dashDir = facingDir;
-
+            rippleEffect.Emit(Camera.main.WorldToViewportPoint(transform.position));
             stateMachine.ChangeState(dashState);
+        }
+    }
+
+    public void DoubleJump()
+    {
+        if (!isDoubleJumpingAllowed)
+            return;
+        if (Input.GetKeyDown(KeyCode.Space) && !isDoubleJumping)
+        {
+            isDoubleJumping = true;
+            stateMachine.ChangeState(jumpState);
         }
     }
 

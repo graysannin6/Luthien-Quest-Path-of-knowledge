@@ -2132,6 +2132,7 @@ GameObject:
   - component: {fileID: 159872192}
   - component: {fileID: 159872190}
   - component: {fileID: 159872194}
+  - component: {fileID: 159872195}
   m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
@@ -2169,6 +2170,7 @@ MonoBehaviour:
   counterAttackDuration: 0.2
   moveSpeed: 8
   jumpForce: 16
+  isDoubleJumping: 0
   dashCooldown: 1
   dashSpeed: 25
   dashDuration: 0.2
@@ -2267,6 +2269,129 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flashDuration: 0.15
   hitMat: {fileID: 2100000, guid: a40c5e9b962236b41a5b0aff9792168a, type: 2}
+--- !u!114 &159872195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159872189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a5f576a6f863f4f8d6ac3fb7bc9290, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waveform:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.05
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.15
+      value: 0.1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.25
+      value: 0.8
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.35
+      value: 0.3
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.45
+      value: 0.6
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.55
+      value: 0.4
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.65
+      value: 0.55
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.75
+      value: 0.46
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.85
+      value: 0.52
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.99
+      value: 0.5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  refractionStrength: 0.5
+  reflectionColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  reflectionStrength: 0.7
+  waveSpeed: 1.25
+  dropInterval: 0.5
+  shader: {fileID: 0}
 --- !u!1 &236299826
 GameObject:
   m_ObjectHideFlags: 0
@@ -2696,8 +2821,8 @@ Transform:
   m_GameObject: {fileID: 673684304}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.25, y: 0.62, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.2285, y: 1.2026, z: 0}
+  m_LocalScale: {x: 2.5532968, y: 1.7287, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 702313067}
@@ -2743,8 +2868,8 @@ SpriteRenderer:
   m_SortingLayerID: -501906625
   m_SortingLayer: 4
   m_SortingOrder: -10
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 0.6862745}
+  m_Sprite: {fileID: 21300000, guid: b7d0bf58865d7e549addca6ce5818caa, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2837,8 +2962,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa336d709d66e3244a1f2c3f94708ac7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  knockBackPower: {x: 5, y: 0}
-  knockBackDuration: 0.07
+  knockBackPower: {x: 7, y: 0}
+  knockBackDuration: 0.2
   attackCheck: {fileID: 2068128069}
   attackCheckRadius: 1.1
   groundCheck: {fileID: 1029252459}

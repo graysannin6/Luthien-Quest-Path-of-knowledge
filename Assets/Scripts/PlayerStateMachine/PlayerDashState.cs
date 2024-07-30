@@ -16,7 +16,7 @@ public class PlayerDashState : PlayerState
 
         stateTimer = player.dashDuration;
 
-        CinemachineShake.Instance.ShakeCamera(0.7f, 0.2f, 14f);
+        CinemachineShake.Instance.ShakeCamera(3f, 0.2f, 14f);
     }
 
     public override void Update()
@@ -27,7 +27,6 @@ public class PlayerDashState : PlayerState
             stateMachine.ChangeState(player.wallSlideState);
 
         player.SetVelocity(player.dashSpeed * player.dashDir, 0);
-
 
         if (stateTimer < 0)
             stateMachine.ChangeState(player.idleState);
