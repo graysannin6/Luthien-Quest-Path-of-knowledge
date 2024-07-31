@@ -20,6 +20,14 @@ public class PlayerJumpState : PlayerState
 
         player.DoubleJump();
 
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            stateMachine.ChangeState(player.airAttackState);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Mouse1))
+            stateMachine.ChangeState(player.airHeavyAttackState);
+
         if (rb.velocity.y < 0)
             stateMachine.ChangeState(player.airState);
     }

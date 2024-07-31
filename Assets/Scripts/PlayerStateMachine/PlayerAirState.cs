@@ -27,6 +27,14 @@ public class PlayerAirState : PlayerState
             player.SetVelocity(player.moveSpeed * .8f * xInput, rb.velocity.y);
 
         player.DoubleJump();
+
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            stateMachine.ChangeState(player.airAttackState);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Mouse1))
+            stateMachine.ChangeState(player.airHeavyAttackState);
     }
 
     public override void Exit()

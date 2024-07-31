@@ -25,6 +25,10 @@ public class Entity : MonoBehaviour
     [SerializeField] protected float wallCheckDistance;
     [SerializeField] protected LayerMask whatIsGround;
 
+    [Header("Stats info")]
+    public int health;
+    public int damage;
+
     public int knockBackDir { get; private set; }
 
     public int facingDir { get; private set; } = 1;
@@ -47,10 +51,13 @@ public class Entity : MonoBehaviour
 
     }
 
-    public virtual void Damage()
+    public virtual bool Damage(int _damage)
     {
         fx.StartCoroutine("FlashFX");
         StartCoroutine("HitKnockback");
+        health -= _damage;
+
+        return health <= 0;
     }
 
     public virtual void SetupKnockbackDirection(Transform _damageDirection)
