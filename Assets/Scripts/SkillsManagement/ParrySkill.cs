@@ -19,12 +19,13 @@ public class ParrySkill : Skill
     {
         base.Start();
 
-        Debug.Log("Estoy entrando a esto");
-        parryUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockParry);
+        Debug.Log("Parry this you filthy casual");
+        parryUnlockButton.GetComponent<Button>().onClick.AddListener(() => UnlockParry());
     }
 
     private void UnlockParry()
     {
+        Debug.Log("Asereje a deje");
         //if (parryUnlockButton.unlocked)
         //{
         parryUnlocked = true;

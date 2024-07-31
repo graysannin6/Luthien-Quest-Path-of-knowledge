@@ -8809,8 +8809,8 @@ MonoBehaviour:
   dashDuration: 0.2
   dashSkill: {fileID: 401371099}
   potionThrowSkill: {fileID: 401371102}
-  doubleJumpSkill: {fileID: 0}
-  parrySkill: {fileID: 0}
+  doubleJumpSkill: {fileID: 401371103}
+  parrySkill: {fileID: 401371104}
   isDying: 0
 --- !u!4 &159872191
 Transform:
@@ -9547,7 +9547,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cooldown: 0
   parryUnlocked: 0
-  parryUnlockButton: {fileID: 829503803}
+  parryUnlockButton: {fileID: 1741207366}
 --- !u!1 &426215677
 GameObject:
   m_ObjectHideFlags: 0
@@ -10460,17 +10460,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &829503803 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3661579657386777869, guid: 3265bedcc1a414f4188e5b41ceacce04, type: 3}
-  m_PrefabInstance: {fileID: 628414337}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e17754a635dd8714c9149701607f4487, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &835495293 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1256593339335504349, guid: 3265bedcc1a414f4188e5b41ceacce04, type: 3}
@@ -11183,6 +11172,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a0140b20c08a5254db656ba4f07d54ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1741207366 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4510798556708389249, guid: 3265bedcc1a414f4188e5b41ceacce04, type: 3}
+  m_PrefabInstance: {fileID: 628414337}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e17754a635dd8714c9149701607f4487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1818229054

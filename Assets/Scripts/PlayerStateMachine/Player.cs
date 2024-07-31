@@ -27,7 +27,7 @@ public class Player : Entity
 
     [SerializeField] private DoubleJumpSkill doubleJumpSkill;
 
-    [SerializeField] private ParrySkill parrySkill;
+    [SerializeField] public ParrySkill parrySkill;
 
     #region States
     public PlayerStateMachine stateMachine { get; private set; }

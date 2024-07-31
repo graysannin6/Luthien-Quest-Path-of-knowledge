@@ -21,7 +21,7 @@ public class PlayerGroundedState : PlayerState
         if (Input.GetKeyDown(KeyCode.Mouse1) && player.potionThrowSkill.throwSkillUnlocked)
             stateMachine.ChangeState(player.aimPotionState);
 
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Q) && player.parrySkill.parryUnlocked)
             stateMachine.ChangeState(player.counterAttack);
 
         if (Input.GetKeyDown(KeyCode.Mouse0))
