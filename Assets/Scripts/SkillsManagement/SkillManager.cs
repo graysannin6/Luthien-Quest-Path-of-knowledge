@@ -1,4 +1,4 @@
-using System.Collections;
+ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -24,6 +24,7 @@ public class SkillManager : MonoBehaviour
     private void Start()
     {
         dash = GetComponent<DashSkill>();
+        Debug.Log("Dash: " + dash);
         throwSkill = GetComponent<PotionThrowSkill>();
     }
 
@@ -44,6 +45,4 @@ public class SkillManager : MonoBehaviour
         bool isUnlocked = unlockedConsumiblesSkills.Contains(skillName);
         return isUnlocked;
     }
-
-
 }

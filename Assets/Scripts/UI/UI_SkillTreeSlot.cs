@@ -26,16 +26,22 @@ public class UI_SkillTreeSlot : MonoBehaviour, IPointerEnterHandler, IPointerExi
 
     }
 
+    private void Awake()
+    {
+        GetComponent<Button>().onClick.AddListener(() => UnlockSkillSlot());
+    }
+
     void Start()
     {
         skillImage = GetComponent<Image>();
         ui = GetComponentInParent<UI>();
         skillImage.color = lockedSkillColor;
-        GetComponent<Button>().onClick.AddListener(() => UnlockSkillSlot());
+        
     }
 
     public void UnlockSkillSlot()
-    {
+    {   
+        Debug.Log("Slot unlocked");
         for (int i = 0; i < shouldBeUnlocked.Length; i++)
         {
             if(shouldBeUnlocked[i].unlocked == false)
