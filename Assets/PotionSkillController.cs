@@ -29,9 +29,8 @@ public class PotionSkillController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.TryGetComponent<Enemy>(out var enemyComponent))
+        if (collision.TryGetComponent<Enemy>(out var enemyComponent) || collision.gameObject.layer == 6)
         {
-            Debug.Log($"Potion collided with enemy: {enemyComponent.name}");
             //enemyComponent.OnHitByPotion();
             anim.SetBool("Explode", true);
             rb.velocity = new Vector2(0, 0);
