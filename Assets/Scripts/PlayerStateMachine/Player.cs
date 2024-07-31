@@ -29,13 +29,6 @@ public class Player : Entity
 
     [SerializeField] private ParrySkill parrySkill;
 
-
-
-
-
-    
-    
-
     #region States
     public PlayerStateMachine stateMachine { get; private set; }
     public PlayerIdleState idleState { get; private set; }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerGroundedState : PlayerState
 {
-    
+
     public PlayerGroundedState(Player _player, PlayerStateMachine _stateMachine, string _animBoolName) : base(_player, _stateMachine, _animBoolName)
     {
     }
@@ -17,12 +17,8 @@ public class PlayerGroundedState : PlayerState
     public override void Update()
     {
         base.Update();
-<<<<<<< Updated upstream
 
         if (Input.GetKeyDown(KeyCode.Mouse1) && player.potionThrowSkill.throwSkillUnlocked)
-=======
-        if (Input.GetKeyDown(KeyCode.Mouse1))
->>>>>>> Stashed changes
             stateMachine.ChangeState(player.aimPotionState);
 
         if (Input.GetKeyDown(KeyCode.Q))
