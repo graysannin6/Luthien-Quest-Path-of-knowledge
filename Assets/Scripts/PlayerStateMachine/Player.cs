@@ -12,7 +12,6 @@ public class Player : Entity
     public float moveSpeed = 12f;
     public float jumpForce;
 
-
     private bool isDoubleJumpingAllowed = true;
     public bool isDoubleJumping = false;
 
