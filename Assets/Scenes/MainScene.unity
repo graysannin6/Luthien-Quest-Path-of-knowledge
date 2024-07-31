@@ -3052,6 +3052,9 @@ MonoBehaviour:
   dashSpeed: 25
   dashDuration: 0.2
   dashSkill: {fileID: 401371099}
+  potionThrowSkill: {fileID: 401371102}
+  doubleJumpSkill: {fileID: 0}
+  parrySkill: {fileID: 0}
   isDying: 0
 --- !u!4 &159872191
 Transform:
@@ -3686,6 +3689,8 @@ GameObject:
   - component: {fileID: 401371100}
   - component: {fileID: 401371099}
   - component: {fileID: 401371102}
+  - component: {fileID: 401371104}
+  - component: {fileID: 401371103}
   m_Layer: 0
   m_Name: SkillManager
   m_TagString: Untagged
@@ -3755,6 +3760,38 @@ MonoBehaviour:
   spaceBetweenDots: 0.07
   dotPrefab: {fileID: 804600462330773020, guid: 4721ef1621560694cb625306f9843c31, type: 3}
   dotsParent: {fileID: 1278971123}
+  throwSkillUnlocked: 0
+  throwSkillUnlockButton: {fileID: 835495293}
+--- !u!114 &401371103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401371098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 770663c7d5014484b830330aae20a396, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldown: 0
+  doubleJumpUnlocked: 0
+  doubleJumpUnlockButton: {fileID: 1147655804}
+--- !u!114 &401371104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401371098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa2a9a1261d047c44a06b12282e76dc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldown: 0
+  parryUnlocked: 0
+  parryUnlockButton: {fileID: 829503803}
 --- !u!1 &426215677
 GameObject:
   m_ObjectHideFlags: 0
@@ -4658,6 +4695,28 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &829503803 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3661579657386777869, guid: 3265bedcc1a414f4188e5b41ceacce04, type: 3}
+  m_PrefabInstance: {fileID: 628414337}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e17754a635dd8714c9149701607f4487, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &835495293 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1256593339335504349, guid: 3265bedcc1a414f4188e5b41ceacce04, type: 3}
+  m_PrefabInstance: {fileID: 628414337}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e17754a635dd8714c9149701607f4487, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &858949014
 GameObject:
   m_ObjectHideFlags: 0
@@ -4774,6 +4833,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 702313067}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1147655804 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7243850225272218644, guid: 3265bedcc1a414f4188e5b41ceacce04, type: 3}
+  m_PrefabInstance: {fileID: 628414337}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e17754a635dd8714c9149701607f4487, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1278971122
 GameObject:
   m_ObjectHideFlags: 0

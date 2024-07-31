@@ -24,7 +24,6 @@ public class SkillManager : MonoBehaviour
     private void Start()
     {
         dash = GetComponent<DashSkill>();
-        Debug.Log("Dash: " + dash);
         throwSkill = GetComponent<PotionThrowSkill>();
     }
 

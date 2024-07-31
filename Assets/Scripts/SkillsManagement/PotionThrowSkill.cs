@@ -18,17 +18,23 @@ public class PotionThrowSkill : Skill
     [SerializeField] private GameObject dotPrefab;
     [SerializeField] private Transform dotsParent;
 
+    [Header("Potion Throw Skill")]
+
+    public bool throwSkillUnlocked;
+    [SerializeField] private UI_SkillTreeSlot throwSkillUnlockButton;
+
     private GameObject[] dots;
 
     protected override void Start()
     {
         base.Start();
 
+        throwSkillUnlockButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(UnlockThrowSkill);
         GenerateDots();
     }
 
     protected override void Update()
-    {
+    {   
         if (Input.GetKeyUp(KeyCode.Mouse1))
             finalDir = new Vector2(AimDirection().normalized.x * launchForce.x, AimDirection().normalized.y * launchForce.y);
 
@@ -39,6 +45,7 @@ public class PotionThrowSkill : Skill
                 dots[i].transform.position = DotsPosition(i * spaceBetweenDots);
             }
         }
+        
     }
 
     public void CreatePotion()
@@ -86,6 +93,11 @@ public class PotionThrowSkill : Skill
              AimDirection().normalized.y * launchForce.y) * t + .5f * (Physics2D.gravity * potionGravity) * (t * t);
 
         return position;
+    }
+
+    public void UnlockThrowSkill()
+    {
+        throwSkillUnlocked = true;
     }
 
 

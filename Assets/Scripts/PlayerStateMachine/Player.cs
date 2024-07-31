@@ -24,6 +24,19 @@ public class Player : Entity
     public SkillManager skill { get; private set; }
     [SerializeField] private DashSkill dashSkill;
 
+    [SerializeField] public PotionThrowSkill potionThrowSkill;
+
+    [SerializeField] private DoubleJumpSkill doubleJumpSkill;
+
+    [SerializeField] private ParrySkill parrySkill;
+
+
+
+
+
+    
+    
+
     #region States
     public PlayerStateMachine stateMachine { get; private set; }
     public PlayerIdleState idleState { get; private set; }
