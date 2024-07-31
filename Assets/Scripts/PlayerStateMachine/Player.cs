@@ -35,9 +35,14 @@ public class Player : Entity
     public PlayerPrimaryAttackState primaryAttack { get; private set; }
     public PlayerCounterAttackState counterAttack { get; private set; }
     public PlayerAimPotionState aimPotionState { get; private set; }
+    public PlayerAirAttackState airAttackState { get; private set; }
+    public PlayerAirHeavyAttackState airHeavyAttackState { get; private set; }
+    public PlayerAirHeavyAttackGroundState airHeavyAttackGroundState { get; private set; }
+    public PlayerDeathState deathState { get; private set; }
     #endregion
 
     private RippleEffect rippleEffect;
+    public bool isDying;
 
     protected override void Awake()
     {
@@ -54,10 +59,16 @@ public class Player : Entity
 
         primaryAttack = new PlayerPrimaryAttackState(this, stateMachine, "Attack");
         counterAttack = new PlayerCounterAttackState(this, stateMachine, "CounterAttack");
+        airAttackState = new PlayerAirAttackState(this, stateMachine, "AirAttack");
+        airHeavyAttackState = new PlayerAirHeavyAttackState(this, stateMachine, "AirHeavyAttack");
+        airHeavyAttackGroundState = new PlayerAirHeavyAttackGroundState(this, stateMachine, "AttackGround");
 
         aimPotionState = new PlayerAimPotionState(this, stateMachine, "Aim");
 
-        Debug.Log(isDoubleJumpingAllowed);
+        deathState = new PlayerDeathState(this, stateMachine, "IsDying");
+
+        health = 100;
+        damage = 50;
     }
 
     protected override void Start()
@@ -111,6 +122,12 @@ public class Player : Entity
             isDoubleJumping = true;
             stateMachine.ChangeState(jumpState);
         }
+    }
+
+    public void Die()
+    {
+        if (!isDying)
+            stateMachine.ChangeState(deathState);
     }
 
 }
