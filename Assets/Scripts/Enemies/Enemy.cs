@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : Entity
+public abstract class Enemy : Entity
 {
     [SerializeField] protected LayerMask whatIsPlayer;
 
@@ -22,6 +22,7 @@ public class Enemy : Entity
     public float attackCooldown;
     [HideInInspector] public float lastTimeAttacked;
 
+    public bool isDying;
 
     public EnemyStateMachine stateMachine { get; private set; }
 
@@ -71,5 +72,12 @@ public class Enemy : Entity
 
         Gizmos.color = Color.yellow;
         Gizmos.DrawLine(transform.position, new Vector3(transform.position.x + attackDistance * facingDir, transform.position.y));
+    }
+
+    public abstract void Die();
+
+    public void Dissapear()
+    {
+        Destroy(gameObject, 2f);
     }
 }
