@@ -34,7 +34,7 @@ public class PotionThrowSkill : Skill
     }
 
     protected override void Update()
-    {   
+    {
         if (Input.GetKeyUp(KeyCode.Mouse1))
             finalDir = new Vector2(AimDirection().normalized.x * launchForce.x, AimDirection().normalized.y * launchForce.y);
 
@@ -45,12 +45,12 @@ public class PotionThrowSkill : Skill
                 dots[i].transform.position = DotsPosition(i * spaceBetweenDots);
             }
         }
-        
+
     }
 
     public void CreatePotion()
     {
-        GameObject newPotion = Instantiate(potionPrefab, player.transform.position, transform.rotation);
+        GameObject newPotion = Instantiate(potionPrefab, player.handPosition.position, transform.rotation);
         PotionSkillController newPotionScript = newPotion.GetComponent<PotionSkillController>();
 
         newPotionScript.SetupPotion(finalDir, potionGravity);
@@ -81,14 +81,14 @@ public class PotionThrowSkill : Skill
 
         for (int i = 0; i < numberOfDots; i++)
         {
-            dots[i] = Instantiate(dotPrefab, player.transform.position, Quaternion.identity, dotsParent);
+            dots[i] = Instantiate(dotPrefab, player.handPosition.position, Quaternion.identity, dotsParent);
             dots[i].SetActive(false);
         }
     }
 
     private Vector2 DotsPosition(float t)
     {
-        Vector2 position = (Vector2)player.transform.position + new Vector2(
+        Vector2 position = (Vector2)player.handPosition.position + new Vector2(
             AimDirection().normalized.x * launchForce.x,
              AimDirection().normalized.y * launchForce.y) * t + .5f * (Physics2D.gravity * potionGravity) * (t * t);
 

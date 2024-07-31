@@ -19,6 +19,13 @@ public class PlayerAimPotionState : PlayerState
     {
         base.Update();
 
+        Vector2 direction = player.potionThrowSkill.AimDirection();
+        int mouseDirection = direction.x < 0 ? -1 : 1;
+        if (player.facingDir != mouseDirection)
+        {
+            player.Flip();
+        }
+
         if (Input.GetKeyUp(KeyCode.Mouse1))
             stateMachine.ChangeState(player.idleState);
     }

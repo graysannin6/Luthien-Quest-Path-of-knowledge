@@ -29,6 +29,8 @@ public class Player : Entity
 
     [SerializeField] public ParrySkill parrySkill;
 
+    [SerializeField] public Transform handPosition;
+
     #region States
     public PlayerStateMachine stateMachine { get; private set; }
     public PlayerIdleState idleState { get; private set; }
