@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class DashSkill : Skill
-{   
+{
     [Header("Dash Skill")]
     public bool dashUnlocked;
     [SerializeField] private UI_SkillTreeSlot dashUnlockButton;
@@ -24,12 +24,10 @@ public class DashSkill : Skill
     }
 
     private void UnlockDash()
-    {   
-        Debug.Log("Attemp to unlock dash");
-        if(dashUnlockButton.unlocked)
-        {   
-            Debug.Log("Dash unlocked");
-            dashUnlocked = true;
-        }
+    {
+        //if (dashUnlockButton.unlocked)
+        //{
+        dashUnlocked = true;
+        //}
     }
 }

@@ -22,6 +22,7 @@ public class Player : Entity
     public float dashDir { get; private set; }
 
     public SkillManager skill { get; private set; }
+    [SerializeField] private DashSkill dashSkill;
 
     #region States
     public PlayerStateMachine stateMachine { get; private set; }
@@ -102,13 +103,13 @@ public class Player : Entity
         if (isWallDetected())
             return;
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && SkillManager.instance.dash.CanUseSkill())
+        if (Input.GetKeyDown(KeyCode.LeftShift) && SkillManager.instance.dash.CanUseSkill() && dashSkill.dashUnlocked)
         {
             dashDir = Input.GetAxisRaw("Horizontal");
 
             if (dashDir == 0)
                 dashDir = facingDir;
-            rippleEffect.Emit(Camera.main.WorldToViewportPoint(transform.position));
+            //rippleEffect.Emit(Camera.main.WorldToViewportPoint(transform.position));
             stateMachine.ChangeState(dashState);
         }
     }

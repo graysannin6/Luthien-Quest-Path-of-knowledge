@@ -5,12 +5,12 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class UI_SkillTreeSlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
-{   
+{
     private UI ui;
     private Image skillImage;
     [SerializeField] private string skillName;
 
-    [TextArea]	
+    [TextArea]
     [SerializeField] private string skillDescription;
     [SerializeField] private Color lockedSkillColor;
     public bool unlocked;
@@ -18,7 +18,7 @@ public class UI_SkillTreeSlot : MonoBehaviour, IPointerEnterHandler, IPointerExi
     [SerializeField] private UI_SkillTreeSlot[] shouldBeUnlocked;
     [SerializeField] private UI_SkillTreeSlot[] shouldBeLocked;
 
-    
+
 
     private void OnValidate()
     {
@@ -36,15 +36,15 @@ public class UI_SkillTreeSlot : MonoBehaviour, IPointerEnterHandler, IPointerExi
         skillImage = GetComponent<Image>();
         ui = GetComponentInParent<UI>();
         skillImage.color = lockedSkillColor;
-        
+
     }
 
     public void UnlockSkillSlot()
-    {   
+    {
         Debug.Log("Slot unlocked");
         for (int i = 0; i < shouldBeUnlocked.Length; i++)
         {
-            if(shouldBeUnlocked[i].unlocked == false)
+            if (shouldBeUnlocked[i].unlocked == false)
             {
                 Debug.Log("Cannot unlock skill");
                 return;
@@ -53,7 +53,7 @@ public class UI_SkillTreeSlot : MonoBehaviour, IPointerEnterHandler, IPointerExi
 
         for (int i = 0; i < shouldBeLocked.Length; i++)
         {
-            if(shouldBeLocked[i].unlocked == true)
+            if (shouldBeLocked[i].unlocked == true)
             {
                 Debug.Log("Cannot unlock skill");
                 return;
@@ -62,20 +62,20 @@ public class UI_SkillTreeSlot : MonoBehaviour, IPointerEnterHandler, IPointerExi
 
         unlocked = true;
         skillImage.color = Color.white;
-        
+
         SkillManager.instance.UnlockSkill(skillName);
-        
-        
-    }      
-    
+
+
+    }
+
     public void OnPointerEnter(PointerEventData eventData)
     {
-        ui.skillToolTip.ShowToolTip(skillDescription,skillName);
+        ui.skillToolTip.ShowToolTip(skillDescription, skillName);
 
         Vector2 mousePosition = Input.mousePosition;
 
         float xOffSet = 0;
-        if(mousePosition.x > 600)
+        if (mousePosition.x > 600)
         {
             xOffSet = -150;
         }

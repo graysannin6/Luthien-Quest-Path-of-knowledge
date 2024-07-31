@@ -56,7 +56,7 @@ public class AttrBar : MonoBehaviour
     {
         if (!player)
         {
-            Debug.LogError("No player set!");
+            Debug.LogWarning("No player set!");
             return;
         }
 
@@ -71,7 +71,7 @@ public class AttrBar : MonoBehaviour
                 secondaryBar.fillAmount = Mathf.Lerp(secondaryBar.fillAmount, bar.fillAmount, 5 * Time.deltaTime);
             }
         }
-    } 
+    }
 
     public float GetAttrValueByAttrType(AttrType attr)
     {
