@@ -19,7 +19,7 @@ public class EnemySkeletonAnimationTrigger : MonoBehaviour
         {
             //hit.GetComponent<Player>()?.Damage();
             Player player = hit.GetComponent<Player>();
-
+            player?.updateHealthBar(-enemy.damage);
             if (player && player.Damage(enemy.damage))
                 player.Die();
         }

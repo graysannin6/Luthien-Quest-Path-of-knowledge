@@ -6,7 +6,7 @@ public class Inventory : MonoBehaviour
 {
     public static Inventory instance;
 
-    public List <InventoryItem> equipment;
+    public List<InventoryItem> equipment;
     public List<ItemData> startingItems;
     public Dictionary<ItemData_Equipment, InventoryItem> equipmentDictionary;
 
@@ -61,7 +61,20 @@ public class Inventory : MonoBehaviour
         AddStartingItems();
 
 
-        
+
+    }
+
+    public bool Consume(string name)
+    {
+        for (int i = 0; i < inventory.Count; i++)
+        {
+            if (inventory[i].data.itemName != name)
+                continue;
+
+            RemoveItem(inventory[i].data);
+            return true;
+        }
+        return false;
     }
 
     public void EquipItem(ItemData _item)
@@ -72,14 +85,14 @@ public class Inventory : MonoBehaviour
         ItemData_Equipment oldEquipment = null;
 
         foreach (KeyValuePair<ItemData_Equipment, InventoryItem> item in equipmentDictionary)
-        {   
-            if(item.Key.equipmentType == newEquipment.equipmentType)
+        {
+            if (item.Key.equipmentType == newEquipment.equipmentType)
             {
-             oldEquipment = item.Key;
+                oldEquipment = item.Key;
             }
         }
 
-        if(oldEquipment != null)
+        if (oldEquipment != null)
         {
             UnequipItem(oldEquipment);
             AddItem(oldEquipment);
@@ -93,7 +106,7 @@ public class Inventory : MonoBehaviour
         UpdateSlotUI();
     }
 
-    public void UnequipItem(ItemData_Equipment  itemToRemove)
+    public void UnequipItem(ItemData_Equipment itemToRemove)
     {
         if (equipmentDictionary.TryGetValue(itemToRemove, out InventoryItem value))
         {
@@ -104,7 +117,7 @@ public class Inventory : MonoBehaviour
         }
     }
     public void UpdateSlotUI()
-    {   
+    {
         for (int i = 0; i < equipmentSlot.Length; i++)
         {
             foreach (KeyValuePair<ItemData_Equipment, InventoryItem> item in equipmentDictionary)
@@ -141,7 +154,7 @@ public class Inventory : MonoBehaviour
         }
     }
 
-        public void AddItem(ItemData _item)
+    public void AddItem(ItemData _item)
     {
         if (_item.itemType == ItemType.Equipment)
             AddToInventory(_item);
@@ -220,16 +233,16 @@ public class Inventory : MonoBehaviour
     public bool CanCraft(ItemData_Equipment _itemToCraft, List<InventoryItem> _requiredMaterials)
     {
         List<InventoryItem> materialsToRemove = new List<InventoryItem>();
-        for(int i = 0; i < _requiredMaterials.Count; i++)
+        for (int i = 0; i < _requiredMaterials.Count; i++)
         {
             if (stashDictionary.TryGetValue(_requiredMaterials[i].data, out InventoryItem stashValue))
             {
-                if(stashValue.stackSize < _requiredMaterials[i].stackSize)
+                if (stashValue.stackSize < _requiredMaterials[i].stackSize)
                 {
                     Debug.Log("Not enough materials");
                     return false;
                 }
-                
+
                 else
                 {
                     materialsToRemove.Add(stashValue);
@@ -249,7 +262,7 @@ public class Inventory : MonoBehaviour
 
         AddItem(_itemToCraft);
         Debug.Log("Here is your Item" + _itemToCraft.name);
-        return true;    
+        return true;
     }
 
     public List<InventoryItem> GetEquipementList() => equipment;
@@ -257,15 +270,15 @@ public class Inventory : MonoBehaviour
     public List<InventoryItem> GetStashList() => stash;
 
     public ItemData_Equipment GetEquipment(EquipmentType _type)
-    {   
+    {
         ItemData_Equipment equipedItem = null;
         foreach (KeyValuePair<ItemData_Equipment, InventoryItem> item in equipmentDictionary)
-            {
-                if (item.Key.equipmentType == _type)
-                    equipedItem = item.Key;
-            }
+        {
+            if (item.Key.equipmentType == _type)
+                equipedItem = item.Key;
+        }
 
         return equipedItem;
     }
-    
+
 }

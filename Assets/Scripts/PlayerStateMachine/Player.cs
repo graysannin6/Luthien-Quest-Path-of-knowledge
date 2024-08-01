@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : Entity
 {
@@ -30,6 +31,10 @@ public class Player : Entity
     [SerializeField] public ParrySkill parrySkill;
 
     [SerializeField] public Transform handPosition;
+
+    [SerializeField] public Inventory inventory;
+
+    [SerializeField] public StatsControl statsControl;
 
     #region States
     public PlayerStateMachine stateMachine { get; private set; }
@@ -75,7 +80,7 @@ public class Player : Entity
 
         deathState = new PlayerDeathState(this, stateMachine, "IsDying");
 
-        health = 100;
+        health = 25;
         damage = 50;
     }
 
@@ -123,7 +128,7 @@ public class Player : Entity
 
     public void DoubleJump()
     {
-        if (!isDoubleJumpingAllowed)
+        if (!doubleJumpSkill.doubleJumpUnlocked)
             return;
         if (Input.GetKeyDown(KeyCode.Space) && !isDoubleJumping)
         {
@@ -136,6 +141,12 @@ public class Player : Entity
     {
         if (!isDying)
             stateMachine.ChangeState(deathState);
+
+    }
+
+    public void updateHealthBar(int damage)
+    {
+        statsControl.IncreaseHP(damage);
     }
 
 }

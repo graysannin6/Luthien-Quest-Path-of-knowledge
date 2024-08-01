@@ -36,6 +36,7 @@ public class PotionSkillController : MonoBehaviour
             rb.velocity = new Vector2(0, 0);
             rb.gravityScale = 0;
             Destroy(gameObject, 1.2f);
+            Destroy(enemyComponent.gameObject);
         }
     }
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
-    public int health = 16;
+    public int health = 25;
     public int mana = 12;
     public int stamina = 15;
 
@@ -12,21 +12,27 @@ public class PlayerStats : MonoBehaviour
     private int maxHP;
     private int maxMP;
 
-    public int MaxHP { get => maxHP; 
-            set
-            {
-                maxHP = value;
-                health = value;
-            }
+    public int MaxHP
+    {
+        get => maxHP;
+        set
+        {
+            maxHP = value;
+            health = value;
         }
-    public int MaxMP { get => maxMP; 
+    }
+    public int MaxMP
+    {
+        get => maxMP;
         set
         {
             maxMP = value;
             mana = value;
         }
     }
-    public int MaxSP { get => maxSP; 
+    public int MaxSP
+    {
+        get => maxSP;
         set
         {
             maxSP = value;
@@ -44,7 +50,7 @@ public class PlayerStats : MonoBehaviour
 
     private void Update()
     {
-        UpdateStats();  
+        UpdateStats();
     }
 
     private void UpdateStats()

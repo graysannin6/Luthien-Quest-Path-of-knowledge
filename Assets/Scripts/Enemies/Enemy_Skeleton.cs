@@ -25,7 +25,7 @@ public class Enemy_Skeleton : Enemy
         stunnedState = new SkeletonStunnedState(this, stateMachine, "Stun");
         deathState = new SkeletonDeathState(this, stateMachine, "Death");
         health = 100;
-        damage = 25;
+        damage = 5;
     }
 
     protected override void Start()
