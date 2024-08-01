@@ -21,7 +21,9 @@ MonoBehaviour:
   health: 0
   mana: 0
   stamina: 0
-  damage: 15
+  damage: 5
   attackSpeed: 0
   critChance: 0
-  craftingMaterials: []
+  craftingMaterials:
+  - data: {fileID: 11400000, guid: 59d4d2ec8c58a39408c5dba8fb4cbad6, type: 2}
+    stackSize: 2
