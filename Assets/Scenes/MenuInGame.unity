@@ -706,7 +706,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7968f392eb847ca4a808a46f4089721f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cooldown: 1
+  cooldown: 10
   dashUnlocked: 0
   dashUnlockButton: {fileID: 2135906392}
 --- !u!1 &1135968491
