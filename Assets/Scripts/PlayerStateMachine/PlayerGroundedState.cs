@@ -30,7 +30,7 @@ public class PlayerGroundedState : PlayerState
         {
             player.moveSpeed += 5;
         }
-        else if (Input.GetKeyDown(KeyCode.T) && player.inventory.Consume("Potion Heal"))
+        else if (Input.GetKeyDown(KeyCode.Alpha1) && player.inventory.Consume("Potion Heal"))
         {
             player.health += 5;
             player.updateHealthBar(5);
