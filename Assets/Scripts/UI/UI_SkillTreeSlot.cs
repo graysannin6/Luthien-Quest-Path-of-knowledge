@@ -62,7 +62,6 @@ public class UI_SkillTreeSlot : MonoBehaviour, IPointerEnterHandler, IPointerExi
 
         unlocked = true;
         skillImage.color = Color.white;
-
         SkillManager.instance.UnlockSkill(skillName);
 
 

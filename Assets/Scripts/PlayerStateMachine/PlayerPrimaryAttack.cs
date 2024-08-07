@@ -16,7 +16,7 @@ public class PlayerPrimaryAttackState : PlayerState
     {
         base.Enter();
 
-        AudioManager.instance.PlaySFX(2);
+        
 
         //xInput = 0;
 
