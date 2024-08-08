@@ -25621,7 +25621,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1093488245}
-  - component: {fileID: 1093488244}
+  - component: {fileID: 1093488246}
   m_Layer: 0
   m_Name: SaveManager
   m_TagString: Untagged
@@ -25629,20 +25629,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1093488244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1093488243}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e050c418d312d84faab80d19241356f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fileName: data.balsero
-  encryptData: 0
 --- !u!4 &1093488245
 Transform:
   m_ObjectHideFlags: 0
@@ -25658,6 +25644,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1093488246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093488243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e050c418d312d84faab80d19241356f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fileName: Primerasalva.balsero
+  encryptData: 0
 --- !u!114 &1147655804 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7243850225272218644, guid: 3265bedcc1a414f4188e5b41ceacce04, type: 3}
@@ -26934,10 +26934,10 @@ MonoBehaviour:
   - {fileID: 613026677}
   - {fileID: 911373786}
   bgm:
-  - {fileID: 930143670}
   - {fileID: 1401442293}
   - {fileID: 625169036}
   - {fileID: 1349308386}
+  - {fileID: 930143670}
   - {fileID: 1646568781}
   playBgm: 1
 --- !u!1 &1418909560
