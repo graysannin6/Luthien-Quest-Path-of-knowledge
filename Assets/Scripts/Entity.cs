@@ -31,7 +31,7 @@ public class Entity : MonoBehaviour
 
     public int knockBackDir { get; private set; }
 
-    public int facingDir { get; private set; } = 1;
+    public int facingDir { get; set; } = 1;
     protected bool facingRight = true;
 
     protected virtual void Awake()

@@ -75,6 +75,8 @@ public abstract class Enemy : Entity
     }
 
     public abstract void Die();
+    public abstract void Stun();
+    public abstract void HandleIncomingAttack(int _damage);
 
     public void Dissapear()
     {

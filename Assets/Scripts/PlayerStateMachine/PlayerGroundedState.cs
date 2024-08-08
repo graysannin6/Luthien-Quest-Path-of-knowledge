@@ -32,7 +32,7 @@ public class PlayerGroundedState : PlayerState
             player.moveSpeed += 5;
             stateMachine.ChangeState(player.drinkingSpeedState);
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha3) && !player.statsControl.IsMaxHealth() && player.inventory.Consume("Potion Heal"))
+        else if (Input.GetKeyDown(KeyCode.E) && !player.statsControl.IsMaxHealth() && player.inventory.Consume("Potion Heal"))
         {
             stateMachine.ChangeState(player.drinkingHealState);
         }

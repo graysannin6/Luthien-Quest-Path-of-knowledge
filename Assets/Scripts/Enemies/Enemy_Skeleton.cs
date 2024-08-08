@@ -59,4 +59,16 @@ public class Enemy_Skeleton : Enemy
             Dissapear();
         }
     }
+
+    public override void Stun()
+    {
+    }
+
+    public override void HandleIncomingAttack(int _damage)
+    {
+        if (Damage(_damage))
+        {
+            Die();
+        }
+    }
 }

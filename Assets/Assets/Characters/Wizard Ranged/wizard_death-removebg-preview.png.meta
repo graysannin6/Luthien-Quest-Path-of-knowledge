@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 66236dd4d2c31354d88c9c45822e1d63
+guid: e1ce3f7e6f720454596592a103f4b5dc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -149,7 +149,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wizard idle_0
+      name: wizard_death-removebg-preview_0
       rect:
         serializedVersion: 2
         x: 0
@@ -163,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3ef3113e0215c64d929c5ec6db9e0ef
-      internalID: 589219830
+      spriteID: d4f7b53835e5ca04a81f03ea0086ad8b
+      internalID: -1209975272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wizard idle_1
+      name: wizard_death-removebg-preview_1
       rect:
         serializedVersion: 2
         x: 80
@@ -184,14 +184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee2036771f3019c46833884f8df42439
-      internalID: -589647423
+      spriteID: cc4e78ddff2da0c4fb3b62246ed1f361
+      internalID: -664107266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wizard idle_2
+      name: wizard_death-removebg-preview_2
       rect:
         serializedVersion: 2
         x: 160
@@ -205,14 +205,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccfb5aaac9ae6d34d95427dfd0b22146
-      internalID: 413947956
+      spriteID: c4915bda07d491d419c99b0130ba96b1
+      internalID: 1529385418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wizard idle_3
+      name: wizard_death-removebg-preview_3
       rect:
         serializedVersion: 2
         x: 240
@@ -226,14 +226,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fbd6467726a4424b991bbc464083664
-      internalID: 762990953
+      spriteID: 10bccab5247651649b9ff61fed847443
+      internalID: -2054465108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wizard idle_4
+      name: wizard_death-removebg-preview_4
       rect:
         serializedVersion: 2
         x: 320
@@ -247,14 +247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0776146cac4e3c94f9f26bc950a822f6
-      internalID: 2069954636
+      spriteID: 96679cd69dd200e47ad22595514bfe15
+      internalID: 1089686890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wizard idle_5
+      name: wizard_death-removebg-preview_5
       rect:
         serializedVersion: 2
         x: 400
@@ -268,14 +268,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e30dfd4fafc2db4780fab0ba3924aa5
-      internalID: -1184710940
+      spriteID: c4b7eae225b7cd74eb3fee241a8fd182
+      internalID: 1825338953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wizard idle_6
+      name: wizard_death-removebg-preview_6
       rect:
         serializedVersion: 2
         x: 480
@@ -289,14 +289,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d2daf031505fb843b502980225c2f65
-      internalID: -208991720
+      spriteID: cd5f52dd950873c4aa3fc14af80a8bdb
+      internalID: -143170800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wizard idle_7
+      name: wizard_death-removebg-preview_7
       rect:
         serializedVersion: 2
         x: 560
@@ -310,14 +310,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d36449b0924edd545a2e20d952e1a580
-      internalID: -1796649996
+      spriteID: 8a172ab0abbcc914db7334afea863a57
+      internalID: -1018821147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wizard idle_8
+      name: wizard_death-removebg-preview_8
       rect:
         serializedVersion: 2
         x: 640
@@ -331,14 +331,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b125c73768f68f43b7eb5b9a3f158f0
-      internalID: 1702678323
+      spriteID: 0af893873a5ccfa4492040b5d61b0735
+      internalID: 374840826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wizard idle_9
+      name: wizard_death-removebg-preview_9
       rect:
         serializedVersion: 2
         x: 720
@@ -352,8 +352,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fa3612727c005144a173cd24e48743f
-      internalID: 551392229
+      spriteID: 48d5d0831c379614bb9d282e945dad40
+      internalID: 1996181003
       vertices: []
       indices: 
       edges: []
@@ -369,16 +369,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      wizard idle_0: 589219830
-      wizard idle_1: -589647423
-      wizard idle_2: 413947956
-      wizard idle_3: 762990953
-      wizard idle_4: 2069954636
-      wizard idle_5: -1184710940
-      wizard idle_6: -208991720
-      wizard idle_7: -1796649996
-      wizard idle_8: 1702678323
-      wizard idle_9: 551392229
+      wizard_death-removebg-preview_0: -1209975272
+      wizard_death-removebg-preview_1: -664107266
+      wizard_death-removebg-preview_2: 1529385418
+      wizard_death-removebg-preview_3: -2054465108
+      wizard_death-removebg-preview_4: 1089686890
+      wizard_death-removebg-preview_5: 1825338953
+      wizard_death-removebg-preview_6: -143170800
+      wizard_death-removebg-preview_7: -1018821147
+      wizard_death-removebg-preview_8: 374840826
+      wizard_death-removebg-preview_9: 1996181003
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

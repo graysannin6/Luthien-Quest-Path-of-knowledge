@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 66236dd4d2c31354d88c9c45822e1d63
+guid: dc569273b5878f24f8b7674a5b089194
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -149,7 +149,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wizard idle_0
+      name: wizard_idle-removebg-preview_0
       rect:
         serializedVersion: 2
         x: 0
@@ -163,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3ef3113e0215c64d929c5ec6db9e0ef
-      internalID: 589219830
+      spriteID: 1dd6531749bcbdf43b51263517b09fcb
+      internalID: -1327499905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wizard idle_1
+      name: wizard_idle-removebg-preview_1
       rect:
         serializedVersion: 2
         x: 80
@@ -184,14 +184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee2036771f3019c46833884f8df42439
-      internalID: -589647423
+      spriteID: 5ff06dfc379180046b6a4ab892aa658e
+      internalID: -1353214955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wizard idle_2
+      name: wizard_idle-removebg-preview_2
       rect:
         serializedVersion: 2
         x: 160
@@ -205,14 +205,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccfb5aaac9ae6d34d95427dfd0b22146
-      internalID: 413947956
+      spriteID: cbd3c8b2e915cc64c9dbe00ef9791bee
+      internalID: 1232792673
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wizard idle_3
+      name: wizard_idle-removebg-preview_3
       rect:
         serializedVersion: 2
         x: 240
@@ -226,14 +226,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fbd6467726a4424b991bbc464083664
-      internalID: 762990953
+      spriteID: 65c88a3c4a0db724dbcd059adfc50fc3
+      internalID: 1638260670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wizard idle_4
+      name: wizard_idle-removebg-preview_4
       rect:
         serializedVersion: 2
         x: 320
@@ -247,14 +247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0776146cac4e3c94f9f26bc950a822f6
-      internalID: 2069954636
+      spriteID: 03ce4682cbde725489dccbbdcb03c564
+      internalID: 61975880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wizard idle_5
+      name: wizard_idle-removebg-preview_5
       rect:
         serializedVersion: 2
         x: 400
@@ -268,14 +268,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e30dfd4fafc2db4780fab0ba3924aa5
-      internalID: -1184710940
+      spriteID: f71683e60607b67499772fbc7fb83447
+      internalID: 1516752481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wizard idle_6
+      name: wizard_idle-removebg-preview_6
       rect:
         serializedVersion: 2
         x: 480
@@ -289,14 +289,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d2daf031505fb843b502980225c2f65
-      internalID: -208991720
+      spriteID: dca82a95e2ce714478f7797c976b288b
+      internalID: -449930987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wizard idle_7
+      name: wizard_idle-removebg-preview_7
       rect:
         serializedVersion: 2
         x: 560
@@ -310,14 +310,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d36449b0924edd545a2e20d952e1a580
-      internalID: -1796649996
+      spriteID: 6a43a2eced0169f4cb982524b1941991
+      internalID: 1579766983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wizard idle_8
+      name: wizard_idle-removebg-preview_8
       rect:
         serializedVersion: 2
         x: 640
@@ -331,14 +331,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b125c73768f68f43b7eb5b9a3f158f0
-      internalID: 1702678323
+      spriteID: 67e5c6855f7e7c646b0a0982d0922d1f
+      internalID: -1197045784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wizard idle_9
+      name: wizard_idle-removebg-preview_9
       rect:
         serializedVersion: 2
         x: 720
@@ -352,8 +352,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fa3612727c005144a173cd24e48743f
-      internalID: 551392229
+      spriteID: 965d77f544c338347ab6db6c78c3f033
+      internalID: 193108405
       vertices: []
       indices: 
       edges: []
@@ -369,16 +369,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      wizard idle_0: 589219830
-      wizard idle_1: -589647423
-      wizard idle_2: 413947956
-      wizard idle_3: 762990953
-      wizard idle_4: 2069954636
-      wizard idle_5: -1184710940
-      wizard idle_6: -208991720
-      wizard idle_7: -1796649996
-      wizard idle_8: 1702678323
-      wizard idle_9: 551392229
+      wizard_idle-removebg-preview_0: -1327499905
+      wizard_idle-removebg-preview_1: -1353214955
+      wizard_idle-removebg-preview_2: 1232792673
+      wizard_idle-removebg-preview_3: 1638260670
+      wizard_idle-removebg-preview_4: 61975880
+      wizard_idle-removebg-preview_5: 1516752481
+      wizard_idle-removebg-preview_6: -449930987
+      wizard_idle-removebg-preview_7: 1579766983
+      wizard_idle-removebg-preview_8: -1197045784
+      wizard_idle-removebg-preview_9: 193108405
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
