@@ -15,6 +15,7 @@ public class Player : Entity
 
     private bool isDoubleJumpingAllowed = true;
     public bool isDoubleJumping = false;
+    public bool isHealing = false;
 
     [Header("Dash info")]
     public float dashSpeed;
@@ -51,6 +52,9 @@ public class Player : Entity
     public PlayerAirAttackState airAttackState { get; private set; }
     public PlayerAirHeavyAttackState airHeavyAttackState { get; private set; }
     public PlayerAirHeavyAttackGroundState airHeavyAttackGroundState { get; private set; }
+    public PlayerDrinkingState drinkingHealState { get; private set; }
+    public PlayerDrinkingState drinkingSpeedState { get; private set; }
+    public PlayerDrinkingState drinkingDamageState { get; private set; }
     public PlayerDeathState deathState { get; private set; }
     #endregion
 
@@ -75,6 +79,9 @@ public class Player : Entity
         airAttackState = new PlayerAirAttackState(this, stateMachine, "AirAttack");
         airHeavyAttackState = new PlayerAirHeavyAttackState(this, stateMachine, "AirHeavyAttack");
         airHeavyAttackGroundState = new PlayerAirHeavyAttackGroundState(this, stateMachine, "AttackGround");
+        drinkingHealState = new PlayerDrinkingState(this, stateMachine, "Heal");
+        drinkingSpeedState = new PlayerDrinkingState(this, stateMachine, "Speed");
+        drinkingDamageState = new PlayerDrinkingState(this, stateMachine, "Damage");
 
         aimPotionState = new PlayerAimPotionState(this, stateMachine, "Aim");
 

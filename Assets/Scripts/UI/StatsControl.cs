@@ -64,4 +64,9 @@ public class StatsControl : MonoBehaviour
 
         playerStats.MaxMP += value;
     }
+
+    public bool IsMaxHealth()
+    {
+        return playerStats.health >= 25;// playerStats.MaxHP;
+    }
 }

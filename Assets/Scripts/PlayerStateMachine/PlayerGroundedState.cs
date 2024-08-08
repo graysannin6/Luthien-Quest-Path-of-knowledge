@@ -18,24 +18,23 @@ public class PlayerGroundedState : PlayerState
     {
         base.Update();
 
-        if (Input.GetKeyDown(KeyCode.E) && player.inventory.Consume("DamagePotion"))
+        if (Input.GetKeyDown(KeyCode.Alpha1) && player.inventory.Consume("Damage Potion"))
         {
             player.damage += 25;
+            stateMachine.ChangeState(player.drinkingDamageState);
         }
         else if (Input.GetKeyDown(KeyCode.Mouse1) && player.skill.throwSkill.throwSkillUnlocked && player.inventory.Consume("Light Potion"))
         {
             stateMachine.ChangeState(player.aimPotionState);
         }
-        else if (Input.GetKeyDown(KeyCode.R) && player.inventory.Consume("Speed Potion"))
+        else if (Input.GetKeyDown(KeyCode.Alpha2) && player.inventory.Consume("Speed Potion"))
         {
             player.moveSpeed += 5;
+            stateMachine.ChangeState(player.drinkingSpeedState);
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha1) && player.inventory.Consume("Potion Heal"))
+        else if (Input.GetKeyDown(KeyCode.Alpha3) && !player.statsControl.IsMaxHealth() && player.inventory.Consume("Potion Heal"))
         {
-            player.health += 5;
-            player.updateHealthBar(5);
-            if (player.health > 100)
-                player.health = 100;
+            stateMachine.ChangeState(player.drinkingHealState);
         }
 
         if (Input.GetKeyDown(KeyCode.Q) && player.parrySkill.parryUnlocked)
