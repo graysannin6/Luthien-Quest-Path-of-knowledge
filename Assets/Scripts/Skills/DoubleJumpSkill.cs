@@ -19,7 +19,7 @@ public class DoubleJumpSkill : Skill
     {
         base.Start();
 
-        Debug.Log("Estoy entrando a esto");
+        
         doubleJumpUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockDoubleJump);
     }
 

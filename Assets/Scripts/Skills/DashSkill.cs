@@ -19,7 +19,7 @@ public class DashSkill : Skill
     {
         base.Start();
 
-        Debug.Log("Estoy entrando a esto");
+        
         dashUnlockButton.GetComponent<Button>().onClick.AddListener(UnlockDash);
     }
 

@@ -19,7 +19,7 @@ public class ParrySkill : Skill
     {
         base.Start();
 
-        Debug.Log("Parry this you filthy casual");
+        
         parryUnlockButton.GetComponent<Button>().onClick.AddListener(() => UnlockParry());
     }
 
