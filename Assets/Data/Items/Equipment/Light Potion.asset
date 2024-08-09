@@ -15,7 +15,8 @@ MonoBehaviour:
   itemType: 0
   itemName: Light Potion
   icon: {fileID: 1995677919, guid: be55291aae08d434db3da3b59db3ab4a, type: 3}
-  equipmentType: 2
+  itemId: 70a8eadccaf8b9843aa58b6e13d61b45
+  equipmentType: 1
   effects: []
   requiredSkill: Stormcaller's Elixir
   health: 0

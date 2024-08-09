@@ -15,8 +15,10 @@ MonoBehaviour:
   itemType: 0
   itemName: Wooden Shield
   icon: {fileID: -2141142661, guid: be55291aae08d434db3da3b59db3ab4a, type: 3}
-  equipmentType: 1
+  itemId: b9c4f756fcae3dd41af84c1eb753aaae
+  equipmentType: 2
   effects: []
+  requiredSkill: 
   health: 0
   mana: 0
   stamina: 0

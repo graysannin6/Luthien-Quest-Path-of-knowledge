@@ -5,7 +5,7 @@ using UnityEngine;
 public enum EquipmentType
 {
     Weapon,
-    Armor,
+    Throwable,
     Shield,
     Consumable,
 }
