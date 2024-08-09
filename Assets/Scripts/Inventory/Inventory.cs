@@ -17,6 +17,8 @@ public class Inventory : MonoBehaviour, ISaveManager
     public List<InventoryItem> stash;
     public Dictionary<ItemData, InventoryItem> stashDictionary;
 
+    public int counter = 0;
+
     [Header("Inventory UI")]
     [SerializeField] private Transform inventorySlotParent;
     [SerializeField] private Transform stashSlotParent;
@@ -42,6 +44,7 @@ public class Inventory : MonoBehaviour, ISaveManager
         {
             Destroy(gameObject);
         }
+        
     }
 
     private void Start()
@@ -60,10 +63,19 @@ public class Inventory : MonoBehaviour, ISaveManager
 
         equipmentSlot = equipmentSlotParent.GetComponentsInChildren<UI_EquipmentSlot>();
 
-        statSlot = statSlotParent.GetComponentsInChildren<UI_StatSlot>();
-        
-        AddStartingItems();
+        statSlot = statSlotParent.GetComponentsInChildren<UI_StatSlot>(); 
 
+    }
+
+    public void Update()
+    {   
+        /*
+        if(counter == 0)
+        {
+            AddStartingItems();
+            counter++;
+        }*/
+        
     }
 
     public bool Consume(string name)
@@ -196,10 +208,12 @@ public class Inventory : MonoBehaviour, ISaveManager
         }
     }
 
-    private void AddStartingItems()
+    public void AddStartingItems()
     {   
-        Debug.Log(loadedItems.Count);
         
+        if (loadedItems.Count > 0)
+        {   
+            Debug.Log("estoy entrando en la condicion");
             foreach (InventoryItem item in loadedItems)
             {
                 for (int i = 0; i < item.stackSize; i++)
@@ -207,12 +221,15 @@ public class Inventory : MonoBehaviour, ISaveManager
                     AddItem(item.data);
                 }
             }
+            return;
+        }
+
         Debug.Log("No estoy entrando en la condicion");
 
-        for (int i = 0; i < startingItems.Count; i++)
+        /*for (int i = 0; i < startingItems.Count; i++)
         {
             EquipItem(startingItems[i]);
-        }
+        }*/
     }
 
     public void RemoveItem(ItemData _item)

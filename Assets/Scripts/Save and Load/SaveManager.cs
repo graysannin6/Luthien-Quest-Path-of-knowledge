@@ -10,6 +10,9 @@ public class SaveManager : MonoBehaviour
 
     [SerializeField] private string fileName;
     [SerializeField] private bool encryptData;
+
+    
+
     private GameData gameData;
     [SerializeField] private List<ISaveManager> saveManagers;
     private FileDataHandler dataHandler;
@@ -29,6 +32,8 @@ public class SaveManager : MonoBehaviour
             Destroy(instance.gameObject);
         else
             instance = this;
+
+        
     }
 
 
@@ -38,9 +43,11 @@ public class SaveManager : MonoBehaviour
         dataHandler = new FileDataHandler(Application.dataPath, fileName,encryptData);
         saveManagers = FindAllSaveManagers();
 
-        //Invoke("LoadGame", .05f);
         
         LoadGame();
+        Inventory.instance.AddStartingItems();
+        
+        
         
         
     }
