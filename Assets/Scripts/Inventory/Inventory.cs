@@ -32,6 +32,7 @@ public class Inventory : MonoBehaviour, ISaveManager
 
     [Header("Data base")]
     public List<InventoryItem> loadedItems;
+    public List<ItemData_Equipment> loadedEquipment;
 
 
     private void Awake()
@@ -67,15 +68,13 @@ public class Inventory : MonoBehaviour, ISaveManager
 
     }
 
-    public void Update()
-    {   
-        /*
+    private void Update()
+    {
         if(counter == 0)
         {
             AddStartingItems();
             counter++;
-        }*/
-        
+        }
     }
 
     public bool Consume(string name)
@@ -210,6 +209,11 @@ public class Inventory : MonoBehaviour, ISaveManager
 
     public void AddStartingItems()
     {   
+
+        foreach (ItemData_Equipment item in loadedEquipment)
+        {
+            EquipItem(item);
+        }
         
         if (loadedItems.Count > 0)
         {   
@@ -226,10 +230,11 @@ public class Inventory : MonoBehaviour, ISaveManager
 
         Debug.Log("No estoy entrando en la condicion");
 
-        /*for (int i = 0; i < startingItems.Count; i++)
+        for (int i = 0; i < startingItems.Count; i++)
         {
-            EquipItem(startingItems[i]);
-        }*/
+            if (startingItems[i] != null)
+                AddItem(startingItems[i]);
+        }
     }
 
     public void RemoveItem(ItemData _item)
@@ -321,8 +326,28 @@ public class Inventory : MonoBehaviour, ISaveManager
                 {
                     InventoryItem itemToLoad = new InventoryItem(item);
                     itemToLoad.stackSize = pair.Value;
-
                     loadedItems.Add(itemToLoad);
+                }
+            }
+        }
+        foreach (string itemId in _data.equipmentId)
+        {
+            foreach (var item in GetItemDataBase())
+            {
+                if (item != null && item.itemId == itemId)
+                {
+                    ItemData_Equipment itemToLoad = item as ItemData_Equipment;
+                    loadedEquipment.Add(itemToLoad);
+                }
+            }
+        }
+        foreach (string loadedItemId in _data.equipmentId)
+        {
+            foreach (var item in GetItemDataBase())
+            {
+                if (item != null && loadedItemId == item.itemId)
+                {
+                    loadedEquipment.Add(item as ItemData_Equipment);
                 }
             }
         }
@@ -336,6 +361,15 @@ public class Inventory : MonoBehaviour, ISaveManager
         foreach(KeyValuePair<ItemData, InventoryItem> pair in inventoryDictionary)
         {
             _data.inventory.Add(pair.Key.itemId, pair.Value.stackSize);
+        }
+        foreach (KeyValuePair<ItemData, InventoryItem> pair in stashDictionary)
+        {
+            _data.inventory.Add(pair.Key.itemId, pair.Value.stackSize);
+        }
+
+        foreach (KeyValuePair<ItemData_Equipment, InventoryItem> pair in equipmentDictionary)
+        {
+            _data.equipmentId.Add(pair.Key.itemId);
         }
     }
 

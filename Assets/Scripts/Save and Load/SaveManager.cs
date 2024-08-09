@@ -42,10 +42,8 @@ public class SaveManager : MonoBehaviour
         
         dataHandler = new FileDataHandler(Application.dataPath, fileName,encryptData);
         saveManagers = FindAllSaveManagers();
-
-        
         LoadGame();
-        Inventory.instance.AddStartingItems();
+        //Inventory.instance.AddStartingItems();
         
         
         

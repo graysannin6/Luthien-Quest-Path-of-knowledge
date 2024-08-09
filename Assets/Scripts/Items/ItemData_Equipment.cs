@@ -10,7 +10,7 @@ public enum EquipmentType
     Consumable,
 }
 
-[CreateAssetMenu(fileName = "New Equipment Item", menuName = "Data/Equipment")]
+[CreateAssetMenu(fileName = "New Equipment Item", menuName = "Data/Items/Equipment")]
 
 public class ItemData_Equipment : ItemData
 {
